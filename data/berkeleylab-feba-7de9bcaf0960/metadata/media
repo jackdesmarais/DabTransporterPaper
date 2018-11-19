@@ -1,0 +1,662 @@
+Media	ALP_defined	
+Description	Defined media for Dechlorosoma suillum PS, pH should be 7.2	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium phosphate monobasic monohydrate	0.49	g/L
+Potassium phosphate dibasic	0.97	g/L
+Potassium Chloride	0.1	g/L
+Ammonium chloride	0.25	g/L
+Sodium D,L-Lactate	40	mM
+Sodium pyruvate	1.1	g/L
+Sodium acetate	0.8203	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ALP_defined_noC	
+Description	Defined media for Dechlorosoma suillum PS minus carbon, pH should be 7.2	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium phosphate monobasic monohydrate	0.49	g/L
+Potassium phosphate dibasic	0.97	g/L
+Potassium Chloride	0.1	g/L
+Ammonium chloride	0.25	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ALP_rich	
+Description	Rich media for Dechlorosoma suillum PS, pH should be 7.2	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Sodium phosphate monobasic monohydrate	0.49	g/L
+Potassium phosphate dibasic	0.97	g/L
+Potassium Chloride	0.1	g/L
+Ammonium chloride	0.25	g/L
+Sodium D,L-Lactate	40	mM
+Sodium pyruvate	1.1	g/L
+Sodium acetate	0.8203	g/L
+Yeast Extract	2	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ALP_richB	
+Description	Rich media for Dechlorosoma suillum PS, pH should be 7.2	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Sodium phosphate dibasic heptahydrate	0.97	g/L
+Potassium Chloride	0.1	g/L
+Ammonium chloride	0.25	g/L
+Sodium D,L-Lactate	40	mM
+Sodium pyruvate	1.1	g/L
+Sodium acetate	0.8203	g/L
+Yeast Extract	2	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	BG11	
+Description	For growing Synechococcus elongatus PCC 7942, pH should be 7.1	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium nitrate	1.5	g/L
+Potassium phosphate dibasic	0.04	g/L
+Magnesium Sulfate Heptahydrate	0.075	g/L
+Calcium chloride dihydrate	0.036	g/L
+Citric Acid	0.006	g/L
+Ferric ammonium citrate	0.006	g/L
+EDTA (disodium salt)	0.001	g/L
+Sodium carbonate	0.02	g/L
+Trace metal mix A5	1	X
+		
+Media	BG11_noNitrogen	
+Description	For growing Synechococcus elongatus PCC 7942, no sodium nitrate, pH should be 7.1	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Potassium phosphate dibasic	0.04	g/L
+Magnesium Sulfate Heptahydrate	0.075	g/L
+Calcium chloride dihydrate	0.036	g/L
+Citric Acid	0.006	g/L
+Ferric ammonium citrate	0.006	g/L
+EDTA (disodium salt)	0.001	g/L
+Sodium carbonate	0.02	g/L
+Trace metal mix A5	1	X
+		
+Media	BG11R	
+Description	For growing Synechococcus elongatus PCC 7942, pH should be 7.1	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium nitrate	1.5	g/L
+Potassium phosphate dibasic	0.04	g/L
+Magnesium Sulfate Heptahydrate	0.075	g/L
+Calcium chloride dihydrate	0.036	g/L
+Citric Acid	0.006	g/L
+Ferric ammonium citrate	0.006	g/L
+EDTA (disodium salt)	0.001	g/L
+Sodium carbonate	0.02	g/L
+Trace metal mix A5	1	X
+		
+Media	DinoMM_alphaKetoGlutAcid_NoNitrogen	
+Description	Minimal media for marine bacteria with no nitrogen and a-ketoglutaric acid as carbon source	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Potassium phosphate monobasic	0.1	g/L
+a-Ketoglutaric acid disodium salt hydrate	10	mM
+Wolfe's mineral mix	0.1	X
+Wolfe's vitamin mix	0.5	X
+		
+Media	DinoMM_noCarbon	
+Description	Minimal media for marine bacteria with no carbon source	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Ammonium Sulfate	0.3	g/L
+Potassium phosphate monobasic	0.1	g/L
+Wolfe's mineral mix	0.1	X
+Wolfe's vitamin mix	0.5	X
+		
+Media	DinoMM_noCarbon_HighNutrient	
+Description	Minimal media for marine bacteria with no carbon source and more vitamins and minerals	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Ammonium Sulfate	0.3	g/L
+Potassium phosphate monobasic	0.1	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	DinoMM_noNitrogen	
+Description	Minimal media for marine bacteria with no nitrogen source	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Potassium phosphate monobasic	0.1	g/L
+Sodium acetate	1.37	g/L
+Wolfe's mineral mix	0.1	X
+Wolfe's vitamin mix	0.5	X
+		
+Media	DinoMM_noNitrogen_HighNutrient	
+Description	Minimal media for marine bacteria with no nitrogen source and more vitamins and minerals	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Potassium phosphate monobasic	0.1	g/L
+Sodium acetate	1.37	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	DinoMM_noNitrogen_HighNutrient_SucroseC	
+Description	Minimal media for marine bacteria with no nitrogen source, sucrose as a carbon source, and more vitamins and minerals	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Potassium phosphate monobasic	0.1	g/L
+Sucrose	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	KB	
+Description	King's medium B	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Bacto Peptone	10	g/L
+Potassium phosphate dibasic	1.5	g/L
+Glycerol	15	g/L
+Magnesium sulfate	0.6	g/L
+		
+Media	KB-half	
+Description	King's medium B half strength	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Bacto Peptone	5	g/L
+Potassium phosphate dibasic	0.75	g/L
+Glycerol	7.5	g/L
+Magnesium sulfate	0.3	g/L
+		
+Media	LB	
+Description	Luria-Bertani broth	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Tryptone	10	g/L
+Yeast Extract	5	g/L
+Sodium Chloride	5	g/L
+		
+Media	LB_Miller	
+Description	Luria-Bertani broth Miller modification	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Tryptone	10	g/L
+Yeast Extract	5	g/L
+Sodium Chloride	10	g/L
+		
+Media	M9	
+Description	E. coli defined media	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+D-Glucose	4	g/L
+Magnesium sulfate	2	mM
+Calcium chloride	0.1	mM
+Sodium phosphate dibasic heptahydrate	12.8	g/L
+Potassium phosphate monobasic	3	g/L
+Sodium Chloride	0.5	g/L
+Ammonium chloride	1	g/L
+		
+Media	M9 minimal media_noCarbon	
+Description	E. coli defined media no carbon	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Magnesium sulfate	2	mM
+Calcium chloride	0.1	mM
+Sodium phosphate dibasic heptahydrate	12.8	g/L
+Potassium phosphate monobasic	3	g/L
+Sodium Chloride	0.5	g/L
+Ammonium chloride	1	g/L
+		
+Media	M9 minimal media_noNitrogen	
+Description	E. coli defined media no nitrogen	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+D-Glucose	4	g/L
+Magnesium sulfate	2	mM
+Calcium chloride	0.1	mM
+Sodium phosphate dibasic heptahydrate	12.8	g/L
+Potassium phosphate monobasic	3	g/L
+Sodium Chloride	0.5	g/L
+		
+Media	M9-D2O	
+Description	E. coli defined media	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+deuterated water	100	vol%
+D-Glucose	4	g/L
+Magnesium sulfate	2	mM
+Calcium chloride	0.1	mM
+Sodium phosphate dibasic heptahydrate	12.8	g/L
+Potassium phosphate monobasic	3	g/L
+Sodium Chloride	0.5	g/L
+Ammonium chloride	1	g/L
+		
+Media	M63_no_sulfur	
+Description	E. coli defined media with no sulfur	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Potassium phosphate monobasic	64	mM
+Ammonium chloride	33	mM
+Magnesium chloride hexahydrate	1	mM
+Thiamine HCl	0.3	mM
+D-Glucose	2	g/L
+Sulfur free mineral mix	1	X
+		
+Media	marine_broth_2216	
+Description	rich media for marine bacteria; difco media 2216	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Peptone	5	g/L
+Yeast Extract	1	g/L
+Ferric citrate	0.1	g/L
+Sodium Chloride	19.45	g/L
+magnesium chloride	5.9	g/L
+Magnesium sulfate	3.24	g/L
+Calcium chloride	1.8	g/L
+Potassium Chloride	0.55	g/L
+Sodium bicarbonate	0.16	g/L
+Potassium bromide	0.08	g/L
+Strontium chloride	34	mg/L
+Boric Acid	22	mg/L
+Sodium silicate	4	mg/L
+sodium fluoride	2.4	mg/L
+Disodium phosphate	8	mg/L
+		
+Media	MoLS4	
+Description	Lactate-sulfate media for sulfate-reducing bacteria, pH should be 7.2	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium sulfate	30	mM
+Sodium D,L-Lactate	60	mM
+Ammonium chloride	20	mM
+Tris hydrochloride	30	mM
+EDTA	0.12	mM
+Sodium sulfide nonahydrate	1	mM
+Magnesium chloride hexahydrate	8	mM
+Calcium chloride	0.6	mM
+Potassium phosphate dibasic	2	mM
+Iron (II) chloride tetrahydrate	60	uM
+Manganese (II) chloride tetrahydrate	15	uM
+Cobalt chloride hexahydrate	7.8	uM
+Zinc chloride	9	uM
+Sodium molybdate	1.26	uM
+Boric Acid	1.92	uM
+Nickel (II) sulfate hexahydrate	2.28	uM
+copper (II) chloride dihydrate	0.06	uM
+Sodium selenite pentahydrate	0.21	uM
+Sodium tungstate dihydrate	0.144	uM
+Thauer's vitamin mix	1	X
+		
+Media	MoLS4_no_ammonia	
+Description	Lactate-sulfate media for sulfate-reducing bacteria with no ammonium, pH should be 7.2	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium sulfate	30	mM
+Sodium D,L-Lactate	60	mM
+Tris hydrochloride	30	mM
+EDTA	0.12	mM
+Sodium sulfide nonahydrate	1	mM
+Magnesium chloride hexahydrate	8	mM
+Calcium chloride	0.6	mM
+Potassium phosphate dibasic	2	mM
+Iron (II) chloride tetrahydrate	60	uM
+Manganese (II) chloride tetrahydrate	15	uM
+Cobalt chloride hexahydrate	7.8	uM
+Zinc chloride	9	uM
+Sodium molybdate	1.26	uM
+Boric Acid	1.92	uM
+Nickel (II) sulfate hexahydrate	2.28	uM
+copper (II) chloride dihydrate	0.06	uM
+Sodium selenite pentahydrate	0.21	uM
+Sodium tungstate dihydrate	0.144	uM
+Thauer's vitamin mix	1	X
+		
+Media	MoLS4_no_lactate	
+Description	Media for sulfate-reducing bacteria with no carbon, pH should be 7.2	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium sulfate	30	mM
+Ammonium chloride	20	mM
+Tris hydrochloride	30	mM
+EDTA	0.12	mM
+Sodium sulfide nonahydrate	1	mM
+Magnesium chloride hexahydrate	8	mM
+Calcium chloride	0.6	mM
+Potassium phosphate dibasic	2	mM
+Iron (II) chloride tetrahydrate	60	uM
+Manganese (II) chloride tetrahydrate	15	uM
+Cobalt chloride hexahydrate	7.8	uM
+Zinc chloride	9	uM
+Sodium molybdate	1.26	uM
+Boric Acid	1.92	uM
+Nickel (II) sulfate hexahydrate	2.28	uM
+copper (II) chloride dihydrate	0.06	uM
+Sodium selenite pentahydrate	0.21	uM
+Sodium tungstate dihydrate	0.144	uM
+Thauer's vitamin mix	1	X
+		
+Media	MoYLS4	
+Description	Rich lactate-sulfate media for sulfate-reducing bacteria, pH should be 7.2	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Yeast Extract	1	g/L
+Sodium sulfate	30	mM
+Sodium D,L-Lactate	60	mM
+Ammonium chloride	20	mM
+Tris hydrochloride	30	mM
+EDTA	0.12	mM
+Sodium sulfide nonahydrate	1	mM
+Magnesium chloride hexahydrate	8	mM
+Calcium chloride	0.6	mM
+Potassium phosphate dibasic	2	mM
+Iron (II) chloride tetrahydrate	60	uM
+Manganese (II) chloride tetrahydrate	15	uM
+Cobalt chloride hexahydrate	7.8	uM
+Zinc chloride	9	uM
+Sodium molybdate	1.26	uM
+Boric Acid	1.92	uM
+Nickel (II) sulfate hexahydrate	2.28	uM
+copper (II) chloride dihydrate	0.06	uM
+Sodium selenite pentahydrate	0.21	uM
+Sodium tungstate dihydrate	0.144	uM
+Thauer's vitamin mix	1	X
+		
+Media	MOPS minimal media_noCarbon	
+Description	MOPS minimal media with no carbon source	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+3-(N-morpholino)propanesulfonic acid	40	mM
+Tricine	4	mM
+Potassium phosphate dibasic	1.32	mM
+Iron (II) sulfate heptahydrate	0.01	mM
+Ammonium chloride	9.5	mM
+Aluminum potassium sulfate dodecahydrate	0.276	mM
+Calcium chloride	0.0005	mM
+Magnesium chloride hexahydrate	0.525	mM
+Sodium Chloride	50	mM
+Ammonium heptamolybdate tetrahydrate	3.00E-09	M
+Boric Acid	4.00E-07	M
+Cobalt chloride hexahydrate	3.00E-08	M
+Copper (II) sulfate pentahydrate	1.00E-08	M
+Manganese (II) chloride tetrahydrate	8.00E-08	M
+Zinc sulfate heptahydrate	1.00E-08	M
+		
+Media	MOPS Rich Defined media_noCarbon	
+Description	MOPS rich media with no carbon source	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+3-(N-morpholino)propanesulfonic acid	40	mM
+Tricine	4	mM
+Iron (II) sulfate heptahydrate	0.01	mM
+Ammonium chloride	9.5	mM
+Aluminum potassium sulfate dodecahydrate	0.276	mM
+Calcium chloride	0.0005	mM
+Magnesium chloride hexahydrate	0.525	mM
+Sodium Chloride	50	mM
+Ammonium heptamolybdate tetrahydrate	3.00E-09	M
+Boric Acid	4.00E-07	M
+Cobalt chloride hexahydrate	3.00E-08	M
+Copper (II) sulfate pentahydrate	1.00E-08	M
+Manganese (II) chloride tetrahydrate	8.00E-08	M
+Zinc sulfate heptahydrate	1.00E-08	M
+Potassium phosphate dibasic	1.32	mM
+Potassium hydroxide	1.5	mM
+Adenine hydrochloride hydrate	0.2	mM
+Cytosine	0.2	mM
+Uracil	0.2	mM
+Guanine	0.2	mM
+L-Alanine	0.8	mM
+L-Arginine	5.2	mM
+L-Asparagine	0.4	mM
+L-Aspartic acid potassium salt	0.4	mM
+L-Glutamic acid monopotassium salt monohydrate	0.66	mM
+L-Glutamine	0.6	mM
+Glycine	0.8	mM
+L-Histidine	0.2	mM
+L-Isoleucine	0.4	mM
+L-Proline	0.4	mM
+L-Serine	10	mM
+L-Threonine	0.4	mM
+L-Tryptophan	0.1	mM
+L-Valine	0.6	mM
+L-Leucine	0.8	mM
+L-Lysine	0.4	mM
+L-Methionine	0.2	mM
+L-Phenylalanine	0.4	mM
+L-Cysteine hydrochloride monohydrate	0.1	mM
+L-tyrosine	0.2	mM
+Thiamine HCl	0.01	mM
+calcium pantothenate	0.01	mM
+4-Aminobenzoic acid	0.01	mM
+4-Hydroxybenzoic Acid	0.01	mM
+2,3-dihydroxybenzoic acid	0.01	mM
+		
+Media	R2A	
+Description	Reasoner's 2A media	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Peptone	0.5	g/L
+casamino acids	0.5	g/L
+Yeast Extract	0.5	g/L
+D-Glucose	0.5	g/L
+Starch	0.5	g/L
+Potassium phosphate dibasic	0.3	g/L
+Magnesium Sulfate Heptahydrate	0.05	g/L
+Sodium pyruvate	0.3	g/L
+		
+Media	RCH2_defined	
+Description	Defined minimal media for soil and groundwater bacteria with lactate	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_glucose	
+Description	Defined minimal media for soil and groundwater bacteria with glucose	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_glucose_CAPS	
+Description	Defined minimal media for soil and groundwater bacteria with glucose and CAPS buffer	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+CAPS	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_glucose_MES	
+Description	Defined minimal media for soil and groundwater bacteria with glucose and MES buffer	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+MES sodium salt	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_Glucose_noNitrogen	
+Description	Defined minimal media for soil and groundwater bacteria with glucose and no nitrogen	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_glucose_TAPS	
+Description	Defined minimal media for soil and groundwater bacteria with glucose and TAPS buffer	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+TAPS sodium salt	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_no_vitamin	
+Description	Defined minimal media for soil and groundwater bacteria with lactate and no vitamin mix	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+		
+Media	RCH2_defined_noCarbon	
+Description	Defined minimal media for soil and groundwater bacteria with no carbon	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_noNitrogen	
+Description	Defined minimal media for soil and groundwater bacteria with lactate and no nitrogen	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_TAPS	
+Description	Defined minimal media for soil and groundwater bacteria with lactate and TAPS buffer	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+TAPS sodium salt	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ShewMM	
+Description	Shewanella minimal media	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	1.5	g/L
+Sodium Chloride	1.75	g/L
+Magnesium chloride hexahydrate	0.61	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ShewMM_MES_buffer	
+Description	Shewanella minimal media with MES buffer	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	1.5	g/L
+Sodium Chloride	1.75	g/L
+Magnesium chloride hexahydrate	0.61	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+MES sodium salt	20	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ShewMM_noCarbon	
+Description	Shewanella minimal media with no carbon	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	1.5	g/L
+Sodium Chloride	1.75	g/L
+Magnesium chloride hexahydrate	0.61	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	ShewMM_noNitrogen	
+Description	Shewanella minimal media with no nitrogen	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sodium Chloride	1.75	g/L
+Magnesium chloride hexahydrate	0.61	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+Sodium D,L-Lactate	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+		
+Media	RCH2_defined_glucose_noVitamin	
+Description	Defined minimal media for soil and groundwater bacteria with glucose and no vitamins added	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Ammonium chloride	0.25	g/L
+Potassium Chloride	0.1	g/L
+Sodium phosphate monobasic monohydrate	0.6	g/L
+D-Glucose	20	mM
+PIPES sesquisodium salt	30	mM
+Wolfe's mineral mix	1	X
+		
+Media	DinoMM_L_lactateCarbon_HighNutrient	
+Description	Minimal media for marine bacteria with Sodium L-Lactate as the carbon source and more vitamins and minerals	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Ammonium Sulfate	0.3	g/L
+Potassium phosphate monobasic	0.1	g/L
+Wolfe's mineral mix	1	X
+Wolfe's vitamin mix	1	X
+Sodium L-Lactate	20	mM
+		
+Media	DinoMM_L_lactateCarbon_HighNutrient_noVitamin	
+Description	Minimal media for marine bacteria with Sodium L-Lactate as the carbon source and no vitamins	
+Minimal	TRUE	
+Controlled vocabulary	Concentration	Units
+Sea salts	20	g/L
+Ammonium Sulfate	0.3	g/L
+Potassium phosphate monobasic	0.1	g/L
+Wolfe's mineral mix	1	X
+Sodium L-Lactate	20	mM
+		
+Media	LB_plus_SM_buffer	
+Description	Luria-Bertani broth with SM buffer (for phage work)	
+Minimal	FALSE	
+Controlled vocabulary	Concentration	Units
+Tryptone	10	g/L
+Yeast Extract	5	g/L
+Sodium Chloride	5	g/L
+Sodium Chloride	100	mM
+Magnesium sulfate	4	mM
+Gelatin	0.005	vol%
+Tris hydrochloride	25	mM

@@ -1,0 +1,62 @@
+Only the cgi scripts are in the code respository. These other files
+will need to be set up for the web site to work.  (All paths are
+within the main feba/ directory of the repository)
+
+A SQL database using mysqlite, which is in
+	cgi_data/feba.db
+Its schema is described in lib/db_setup_tables.sql
+It can built from the HTML directories that are created by BarSeqR.pl
+by using bin/db_setup.pl. This also requires
+   all-vs-all best hits, see MakeBBH.pl
+   KEGG best hits, see KeggBestHit.pl
+   SwissProt best hits, see SprotBestHit.pl
+   SEED annotations (g/*/seedanno.tab, see db_setup_SEED.pl)
+   img.xrefs, see bin/IMGXRefs.pl
+   the kegg tables, see kegg/
+   (And kegg/maps/ will be needed for the maps to actually work, see kegg/README)
+
+BLAST executables (blastall, fastacmd, formatdb), which should be in
+	bin/blast/
+(or this can be a symlink to a location where they are available)
+
+A BLAST database of amino acid sequences, with identifiers of the form orgId:locusId (i.e., "Keio:14146"), in
+	cgi_data/aaseqs
+It must be formatted with
+	bin/blast/formatdb -o T -p T -i cgi_data/aaseqs
+
+Some of the scripts also write temporary files to
+	tmp/
+This directory will need to be writable by the web server, i.e.,
+	chmod a+w tmp
+
+The other dependencies are perl modules:
+	CGI
+	DBI
+        File::Which
+        FindBin
+        Getopt::Long
+	List::Util
+        HTML::Entities
+        URI::Encode
+	Time::HiRes (for making unique file names, and for timing some cgi's with debug=1)
+	Bio::SeqIO (used to read FASTA files; could be replaced)
+        Digest::MD5 (required for blatch Fitness Blast only)
+
+The front page for the web site is:
+	cgi/myFrontPage.cgi
+
+You can modify the text at the top of the home page by creating a file
+named "motd" (message of the day) in the main directory (the directory
+the contains cgi/).
+
+If setting up fitness blast -- see images/fitblast_example.html,
+cgi/seqservice.cgi, and bin/start_ublast_service.pl. You'll need to
+create bin/usearch6. Also, images/fitblast.js uses URLs of the form
+server_root/cgi-bin/, not server_root/cgi/. You may need to set up
+cgi-bin as a symbolic link for it to work, i.e. in the feba directory,
+	ln -s cgi cgi-bin
+
+If setting up batch blast, then you need to create a job_data
+directory (within the main feba/ directory) and make it writable by
+your web server. You'll also need to create bin/usearch (tested with
+usearch 8, *not* usearch 6).

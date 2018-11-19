@@ -1,0 +1,454 @@
+locusId	sysName	type	scaffoldId	name	desc	expess
+HNEAP_RS00535	HNEAP_RS00535	1	NC_013422.1	NA	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase	FALSE
+HNEAP_RS02200	HNEAP_RS02200	1	NC_013422.1	NA	16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH	FALSE
+HNEAP_RS10220	HNEAP_RS10220	1	NC_013422.1	NA	1-acyl-sn-glycerol-3-phosphate acyltransferase	FALSE
+HNEAP_RS07255	HNEAP_RS07255	1	NC_013422.1	NA	1-deoxy-D-xylulose-5-phosphate reductoisomerase	FALSE
+HNEAP_RS08370	HNEAP_RS08370	1	NC_013422.1	NA	1-deoxy-D-xylulose-5-phosphate synthase	FALSE
+HNEAP_RS01210	HNEAP_RS01210	1	NC_013422.1	NA	2 3 4 5-tetrahydropyridine-2 6-dicarboxylate N-succinyltransferase	FALSE
+HNEAP_RS00570	HNEAP_RS00570	1	NC_013422.1	NA	2 3-bisphosphoglycerate-independent phosphoglycerate mutase	FALSE
+HNEAP_RS05685	HNEAP_RS05685	1	NC_013422.1	NA	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	FALSE
+HNEAP_RS03370	HNEAP_RS03370	1	NC_013422.1	NA	2-C-methyl-D-erythritol 2 4-cyclodiphosphate synthase	FALSE
+HNEAP_RS03365	HNEAP_RS03365	1	NC_013422.1	NA	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	FALSE
+HNEAP_RS01600	HNEAP_RS01600	1	NC_013422.1	NA	30S ribosomal protein S10	TRUE
+HNEAP_RS01715	HNEAP_RS01715	1	NC_013422.1	NA	30S ribosomal protein S11	TRUE
+HNEAP_RS01580	HNEAP_RS01580	1	NC_013422.1	NA	30S ribosomal protein S12	TRUE
+HNEAP_RS01670	HNEAP_RS01670	1	NC_013422.1	NA	30S ribosomal protein S14	TRUE
+HNEAP_RS01635	HNEAP_RS01635	1	NC_013422.1	NA	30S ribosomal protein S3	TRUE
+HNEAP_RS01720	HNEAP_RS01720	1	NC_013422.1	NA	30S ribosomal protein S4	TRUE
+HNEAP_RS01690	HNEAP_RS01690	1	NC_013422.1	NA	30S ribosomal protein S5	TRUE
+HNEAP_RS06930	HNEAP_RS06930	1	NC_013422.1	NA	30S ribosomal protein S6	TRUE
+HNEAP_RS01585	HNEAP_RS01585	1	NC_013422.1	NA	30S ribosomal protein S7	TRUE
+HNEAP_RS01675	HNEAP_RS01675	1	NC_013422.1	NA	30S ribosomal protein S8	TRUE
+HNEAP_RS10175	HNEAP_RS10175	1	NC_013422.1	NA	30S ribosomal protein S9	TRUE
+HNEAP_RS11365	HNEAP_RS11365	1	NC_013422.1	NA	3-dehydroquinate synthase	FALSE
+HNEAP_RS08630	HNEAP_RS08630	1	NC_013422.1	NA	3-deoxy-7-phosphoheptulonate synthase	FALSE
+HNEAP_RS03350	HNEAP_RS03350	1	NC_013422.1	NA	3-deoxy-8-phosphooctulonate synthase	FALSE
+HNEAP_RS10560	HNEAP_RS10560	1	NC_013422.1	NA	3-deoxy-D-manno-octulosonic acid transferase	FALSE
+HNEAP_RS08595	HNEAP_RS08595	1	NC_013422.1	NA	3-deoxy-manno-octulosonate cytidylyltransferase	FALSE
+HNEAP_RS07225	HNEAP_RS07225	1	NC_013422.1	NA	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	FALSE
+HNEAP_RS08565	HNEAP_RS08565	1	NC_013422.1	NA	3-isopropylmalate dehydratase large subunit	FALSE
+HNEAP_RS08550	HNEAP_RS08550	1	NC_013422.1	NA	3-isopropylmalate dehydrogenase	FALSE
+HNEAP_RS05690	HNEAP_RS05690	1	NC_013422.1	NA	3-methyl-2-oxobutanoate hydroxymethyltransferase	FALSE
+HNEAP_RS09570	HNEAP_RS09570	1	NC_013422.1	NA	3-oxoacyl-ACP reductase FabG	FALSE
+HNEAP_RS06705	HNEAP_RS06705	1	NC_013422.1	NA	3-phosphoglycerate dehydrogenase	FALSE
+HNEAP_RS06710	HNEAP_RS06710	1	NC_013422.1	NA	3-phosphoserine/phosphohydroxythreonine transaminase	FALSE
+HNEAP_RS06685	HNEAP_RS06685	1	NC_013422.1	NA	3-phosphoshikimate 1-carboxyvinyltransferase	FALSE
+HNEAP_RS05875	HNEAP_RS05875	1	NC_013422.1	NA	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase	FALSE
+HNEAP_RS10940	HNEAP_RS10940	1	NC_013422.1	NA	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase	FALSE
+HNEAP_RS11110	HNEAP_RS11110	1	NC_013422.1	NA	4-hydroxy-3-methylbut-2-enyl diphosphate reductase	FALSE
+HNEAP_RS05120	HNEAP_RS05120	1	NC_013422.1	NA	4-hydroxybenzoate octaprenyltransferase	FALSE
+HNEAP_RS07835	HNEAP_RS07835	1	NC_013422.1	NA	4-hydroxy-tetrahydrodipicolinate reductase	FALSE
+HNEAP_RS03430	HNEAP_RS03430	1	NC_013422.1	NA	4-hydroxy-tetrahydrodipicolinate synthase	FALSE
+HNEAP_RS06405	HNEAP_RS06405	1	NC_013422.1	NA	4-hydroxythreonine-4-phosphate dehydrogenase PdxA	FALSE
+HNEAP_RS01555	HNEAP_RS01555	1	NC_013422.1	NA	50S ribosomal protein L1	TRUE
+HNEAP_RS01560	HNEAP_RS01560	1	NC_013422.1	NA	50S ribosomal protein L10	TRUE
+HNEAP_RS01550	HNEAP_RS01550	1	NC_013422.1	NA	50S ribosomal protein L11	TRUE
+HNEAP_RS10180	HNEAP_RS10180	1	NC_013422.1	NA	50S ribosomal protein L13	TRUE
+HNEAP_RS01655	HNEAP_RS01655	1	NC_013422.1	NA	50S ribosomal protein L14	TRUE
+HNEAP_RS01700	HNEAP_RS01700	1	NC_013422.1	NA	50S ribosomal protein L15	TRUE
+HNEAP_RS01640	HNEAP_RS01640	1	NC_013422.1	NA	50S ribosomal protein L16	TRUE
+HNEAP_RS01730	HNEAP_RS01730	1	NC_013422.1	NA	50S ribosomal protein L17	TRUE
+HNEAP_RS01685	HNEAP_RS01685	1	NC_013422.1	NA	50S ribosomal protein L18	TRUE
+HNEAP_RS09970	HNEAP_RS09970	1	NC_013422.1	NA	50S ribosomal protein L19	TRUE
+HNEAP_RS01620	HNEAP_RS01620	1	NC_013422.1	NA	50S ribosomal protein L2	TRUE
+HNEAP_RS06610	HNEAP_RS06610	1	NC_013422.1	NA	50S ribosomal protein L20	TRUE
+HNEAP_RS01310	HNEAP_RS01310	1	NC_013422.1	NA	50S ribosomal protein L21	TRUE
+HNEAP_RS01630	HNEAP_RS01630	1	NC_013422.1	NA	50S ribosomal protein L22	TRUE
+HNEAP_RS01660	HNEAP_RS01660	1	NC_013422.1	NA	50S ribosomal protein L24	TRUE
+HNEAP_RS01605	HNEAP_RS01605	1	NC_013422.1	NA	50S ribosomal protein L3	TRUE
+HNEAP_RS01610	HNEAP_RS01610	1	NC_013422.1	NA	50S ribosomal protein L4	TRUE
+HNEAP_RS01665	HNEAP_RS01665	1	NC_013422.1	NA	50S ribosomal protein L5	TRUE
+HNEAP_RS01680	HNEAP_RS01680	1	NC_013422.1	NA	50S ribosomal protein L6	TRUE
+HNEAP_RS01565	HNEAP_RS01565	1	NC_013422.1	NA	50S ribosomal protein L7/L12	TRUE
+HNEAP_RS01260	HNEAP_RS01260	1	NC_013422.1	NA	5-(carboxyamino)imidazole ribonucleotide mutase	FALSE
+HNEAP_RS01255	HNEAP_RS01255	1	NC_013422.1	NA	5-(carboxyamino)imidazole ribonucleotide synthase	FALSE
+HNEAP_RS03250	HNEAP_RS03250	1	NC_013422.1	NA	5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase	FALSE
+HNEAP_RS09275	HNEAP_RS09275	1	NC_013422.1	NA	6 7-dimethyl-8-ribityllumazine synthase	FALSE
+HNEAP_RS01100	HNEAP_RS01100	1	NC_013422.1	NA	ABC transporter ATP-binding protein	FALSE
+HNEAP_RS09455	HNEAP_RS09455	1	NC_013422.1	NA	acetolactate synthase 3 large subunit	FALSE
+HNEAP_RS06870	HNEAP_RS06870	1	NC_013422.1	NA	acetyl-CoA carboxylase biotin carboxylase subunit	FALSE
+HNEAP_RS06865	HNEAP_RS06865	1	NC_013422.1	NA	acetyl-CoA carboxylase biotin carboxyl carrier protein subunit	FALSE
+HNEAP_RS05700	HNEAP_RS05700	1	NC_013422.1	NA	acetyl-CoA carboxylase carboxyltransferase subunit alpha	FALSE
+HNEAP_RS05825	HNEAP_RS05825	1	NC_013422.1	NA	acetyl-CoA carboxylase carboxyltransferase subunit beta	FALSE
+HNEAP_RS00870	HNEAP_RS00870	1	NC_013422.1	NA	acetylglutamate kinase	FALSE
+HNEAP_RS05350	HNEAP_RS05350	1	NC_013422.1	NA	aconitate hydratase B	FALSE
+HNEAP_RS07220	HNEAP_RS07220	1	NC_013422.1	NA	acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase	FALSE
+HNEAP_RS09575	HNEAP_RS09575	1	NC_013422.1	NA	[acyl-carrier-protein] S-malonyltransferase	FALSE
+HNEAP_RS09360	HNEAP_RS09360	1	NC_013422.1	NA	acyl-phosphate glycerol 3-phosphate acyltransferase	FALSE
+HNEAP_RS02060	HNEAP_RS02060	1	NC_013422.1	NA	adenosylhomocysteinase	FALSE
+HNEAP_RS06390	HNEAP_RS06390	1	NC_013422.1	NA	adenylate kinase	FALSE
+HNEAP_RS05190	HNEAP_RS05190	1	NC_013422.1	NA	adenylosuccinate lyase	FALSE
+HNEAP_RS09990	HNEAP_RS09990	1	NC_013422.1	NA	adenylosuccinate synthase	FALSE
+HNEAP_RS07520	HNEAP_RS07520	1	NC_013422.1	NA	adenylyl-sulfate kinase	FALSE
+HNEAP_RS09895	HNEAP_RS09895	1	NC_013422.1	NA	ADP-forming succinate--CoA ligase subunit beta	FALSE
+HNEAP_RS06985	HNEAP_RS06985	1	NC_013422.1	NA	alanine transaminase	FALSE
+HNEAP_RS01770	HNEAP_RS01770	1	NC_013422.1	NA	alanine--tRNA ligase	FALSE
+HNEAP_RS05805	HNEAP_RS05805	1	NC_013422.1	NA	amidophosphoribosyltransferase	FALSE
+HNEAP_RS06735	HNEAP_RS06735	1	NC_013422.1	NA	amino-acid N-acetyltransferase	FALSE
+HNEAP_RS10205	HNEAP_RS10205	1	NC_013422.1	NA	anthranilate phosphoribosyltransferase	FALSE
+HNEAP_RS10495	HNEAP_RS10495	1	NC_013422.1	NA	anthranilate synthase component I	FALSE
+HNEAP_RS05940	HNEAP_RS05940	1	NC_013422.1	NA	apolipoprotein N-acyltransferase	FALSE
+HNEAP_RS10520	HNEAP_RS10520	1	NC_013422.1	NA	arginine--tRNA ligase	FALSE
+HNEAP_RS10725	HNEAP_RS10725	1	NC_013422.1	NA	argininosuccinate lyase	FALSE
+HNEAP_RS03440	HNEAP_RS03440	1	NC_013422.1	NA	argininosuccinate synthase	FALSE
+HNEAP_RS06780	HNEAP_RS06780	1	NC_013422.1	NA	aspartate carbamoyltransferase catalytic subunit	FALSE
+HNEAP_RS01775	HNEAP_RS01775	1	NC_013422.1	NA	aspartate kinase	FALSE
+HNEAP_RS08545	HNEAP_RS08545	1	NC_013422.1	NA	aspartate-semialdehyde dehydrogenase	FALSE
+HNEAP_RS02360	HNEAP_RS02360	1	NC_013422.1	NA	aspartate--tRNA ligase	FALSE
+HNEAP_RS06255	HNEAP_RS06255	1	NC_013422.1	NA	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase GatCAB subunit A	FALSE
+HNEAP_RS06250	HNEAP_RS06250	1	NC_013422.1	NA	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase GatCAB subunit B	FALSE
+HNEAP_RS09805	HNEAP_RS09805	1	NC_013422.1	NA	ATP-dependent zinc metalloprotease FtsH	FALSE
+HNEAP_RS03870	HNEAP_RS03870	1	NC_013422.1	NA	ATP phosphoribosyltransferase	FALSE
+HNEAP_RS09995	HNEAP_RS09995	1	NC_013422.1	NA	ATP phosphoribosyltransferase regulatory subunit	FALSE
+HNEAP_RS04930	HNEAP_RS04930	1	NC_013422.1	NA	beta-ketoacyl-[acyl-carrier-protein] synthase I	FALSE
+HNEAP_RS06750	HNEAP_RS06750	1	NC_013422.1	NA	bifunctional 2-polyprenyl-6-hydroxyphenol methylase/3-demethylubiquinol 3-O-methyltransferase UbiG	FALSE
+HNEAP_RS04935	HNEAP_RS04935	1	NC_013422.1	NA	bifunctional 3-hydroxydecanoyl-ACP dehydratase/trans-2-decenoyl-ACP isomerase	FALSE
+HNEAP_RS06655	HNEAP_RS06655	1	NC_013422.1	NA	bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1 4-benzoquinol methylase UbiE	FALSE
+HNEAP_RS05820	HNEAP_RS05820	1	NC_013422.1	NA	bifunctional folylpolyglutamate synthase/dihydrofolate synthase	FALSE
+HNEAP_RS07585	HNEAP_RS07585	1	NC_013422.1	NA	bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase	FALSE
+HNEAP_RS03270	HNEAP_RS03270	1	NC_013422.1	NA	bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD	FALSE
+HNEAP_RS09940	HNEAP_RS09940	1	NC_013422.1	NA	bifunctional ornithine acetyltransferase/N-acetylglutamate synthase	FALSE
+HNEAP_RS00860	HNEAP_RS00860	1	NC_013422.1	NA	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC	FALSE
+HNEAP_RS00255	HNEAP_RS00255	1	NC_013422.1	NA	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase PurH	FALSE
+HNEAP_RS00975	HNEAP_RS00975	1	NC_013422.1	NA	bifunctional riboflavin kinase/FAD synthetase	FALSE
+HNEAP_RS12125	HNEAP_RS12125	1	NC_013422.1	NA	biotin--[acetyl-CoA-carboxylase] ligase	FALSE
+HNEAP_RS10620	HNEAP_RS10620	1	NC_013422.1	NA	branched-chain amino acid transaminase	FALSE
+HNEAP_RS07825	HNEAP_RS07825	1	NC_013422.1	NA	carbamoyl-phosphate synthase large subunit	FALSE
+HNEAP_RS07830	HNEAP_RS07830	1	NC_013422.1	NA	carbamoyl-phosphate synthase small subunit	FALSE
+HNEAP_RS05435	HNEAP_RS05435	1	NC_013422.1	NA	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	FALSE
+HNEAP_RS09440	HNEAP_RS09440	1	NC_013422.1	NA	CDP-diacylglycerol--serine O-phosphatidyltransferase	FALSE
+HNEAP_RS07740	HNEAP_RS07740	1	NC_013422.1	NA	cell division ATP-binding protein FtsE	TRUE
+HNEAP_RS02260	HNEAP_RS02260	1	NC_013422.1	NA	cell division protein FtsA	TRUE
+HNEAP_RS02255	HNEAP_RS02255	1	NC_013422.1	NA	cell division protein FtsQ	TRUE
+HNEAP_RS02235	HNEAP_RS02235	1	NC_013422.1	NA	cell division protein FtsW	TRUE
+HNEAP_RS02265	HNEAP_RS02265	1	NC_013422.1	NA	cell division protein FtsZ	TRUE
+HNEAP_RS00780	HNEAP_RS00780	1	NC_013422.1	NA	cell division protein ZipA	TRUE
+HNEAP_RS03140	HNEAP_RS03140	1	NC_013422.1	NA	chaperonin GroEL	FALSE
+HNEAP_RS06700	HNEAP_RS06700	1	NC_013422.1	NA	chorismate mutase	FALSE
+HNEAP_RS09115	HNEAP_RS09115	1	NC_013422.1	NA	chorismate synthase	FALSE
+HNEAP_RS00015	HNEAP_RS00015	1	NC_013422.1	NA	chromosomal replication initiator protein DnaA	FALSE
+HNEAP_RS10675	HNEAP_RS10675	1	NC_013422.1	NA	citrate synthase	FALSE
+HNEAP_RS09240	HNEAP_RS09240	1	NC_013422.1	NA	class 1 fructose-bisphosphatase	FALSE
+HNEAP_RS07215	HNEAP_RS07215	1	NC_013422.1	NA	class II fumarate hydratase	FALSE
+HNEAP_RS09315	HNEAP_RS09315	1	NC_013422.1	NA	copper-translocating P-type ATPase	FALSE
+HNEAP_RS03345	HNEAP_RS03345	1	NC_013422.1	NA	CTP synthase	FALSE
+HNEAP_RS10810	HNEAP_RS10810	1	NC_013422.1	NA	c-type cytochrome biogenesis protein CcsB	FALSE
+HNEAP_RS08585	HNEAP_RS08585	1	NC_013422.1	NA	cupin	FALSE
+HNEAP_RS06450	HNEAP_RS06450	1	NC_013422.1	NA	cysteine synthase CysM	FALSE
+HNEAP_RS05450	HNEAP_RS05450	1	NC_013422.1	NA	cysteine--tRNA ligase	FALSE
+HNEAP_RS05720	HNEAP_RS05720	1	NC_013422.1	NA	cytochrome b	FALSE
+HNEAP_RS05725	HNEAP_RS05725	1	NC_013422.1	NA	cytochrome c1	FALSE
+HNEAP_RS10815	HNEAP_RS10815	1	NC_013422.1	NA	cytochrome c biogenesis protein ResB	FALSE
+HNEAP_RS09345	HNEAP_RS09345	1	NC_013422.1	NA	cytochrome-c oxidase  cbb3-type subunit I	FALSE
+HNEAP_RS09340	HNEAP_RS09340	1	NC_013422.1	NA	cytochrome-c oxidase  cbb3-type subunit II	FALSE
+HNEAP_RS09330	HNEAP_RS09330	1	NC_013422.1	NA	cytochrome c oxidase subunit III	FALSE
+HNEAP_RS02250	HNEAP_RS02250	1	NC_013422.1	NA	D-alanine--D-alanine ligase	FALSE
+HNEAP_RS06680	HNEAP_RS06680	1	NC_013422.1	NA	(d)CMP kinase	FALSE
+HNEAP_RS04965	HNEAP_RS04965	1	NC_013422.1	NA	dCTP deaminase	FALSE
+HNEAP_RS07925	HNEAP_RS07925	1	NC_013422.1	NA	dephospho-CoA kinase	FALSE
+HNEAP_RS09380	HNEAP_RS09380	1	NC_013422.1	NA	dethiobiotin synthase	FALSE
+HNEAP_RS10850	HNEAP_RS10850	1	NC_013422.1	NA	diaminopimelate decarboxylase	FALSE
+HNEAP_RS01895	HNEAP_RS01895	1	NC_013422.1	NA	diaminopimelate epimerase	FALSE
+HNEAP_RS05775	HNEAP_RS05775	1	NC_013422.1	NA	dihydroorotase	FALSE
+HNEAP_RS09800	HNEAP_RS09800	1	NC_013422.1	NA	dihydropteroate synthase	FALSE
+HNEAP_RS05795	HNEAP_RS05795	1	NC_013422.1	NA	dihydroxy-acid dehydratase	FALSE
+HNEAP_RS07265	HNEAP_RS07265	1	NC_013422.1	NA	di-trans poly-cis-decaprenylcistransferase	FALSE
+HNEAP_RS02195	HNEAP_RS02195	1	NC_013422.1	NA	division/cell wall cluster transcriptional repressor MraZ	FALSE
+HNEAP_RS00985	HNEAP_RS00985	1	NC_013422.1	NA	DNA adenine methylase	FALSE
+HNEAP_RS03690	HNEAP_RS03690	1	NC_013422.1	NA	DnaA regulatory inactivator Hda	FALSE
+HNEAP_RS01725	HNEAP_RS01725	1	NC_013422.1	NA	DNA-directed RNA polymerase subunit alpha	FALSE
+HNEAP_RS01570	HNEAP_RS01570	1	NC_013422.1	NA	DNA-directed RNA polymerase subunit beta	FALSE
+HNEAP_RS01575	HNEAP_RS01575	1	NC_013422.1	NA	DNA-directed RNA polymerase subunit beta'	FALSE
+HNEAP_RS06715	HNEAP_RS06715	1	NC_013422.1	NA	DNA gyrase subunit A	FALSE
+HNEAP_RS08150	HNEAP_RS08150	1	NC_013422.1	NA	DNA methyltransferase	FALSE
+HNEAP_RS02955	HNEAP_RS02955	1	NC_013422.1	NA	DNA polymerase III subunit alpha	FALSE
+HNEAP_RS00020	HNEAP_RS00020	1	NC_013422.1	NA	DNA polymerase III subunit beta	FALSE
+HNEAP_RS08675	HNEAP_RS08675	1	NC_013422.1	NA	DNA polymerase III subunit delta	FALSE
+HNEAP_RS09090	HNEAP_RS09090	1	NC_013422.1	NA	DNA polymerase III subunit epsilon	FALSE
+HNEAP_RS03890	HNEAP_RS03890	1	NC_013422.1	NA	DNA polymerase III  subunit gamma and tau	FALSE
+HNEAP_RS02300	HNEAP_RS02300	1	NC_013422.1	NA	DNA primase	FALSE
+HNEAP_RS00030	HNEAP_RS00030	1	NC_013422.1	NA	DNA topoisomerase (ATP-hydrolyzing) subunit B	FALSE
+HNEAP_RS08720	HNEAP_RS08720	1	NC_013422.1	NA	DNA topoisomerase IV subunit B	FALSE
+HNEAP_RS09540	HNEAP_RS09540	1	NC_013422.1	NA	dTMP kinase	FALSE
+HNEAP_RS09700	HNEAP_RS09700	1	NC_013422.1	NA	DUF2818 domain-containing protein	FALSE
+HNEAP_RS09520	HNEAP_RS09520	1	NC_013422.1	NA	DUF3579 domain-containing protein	FALSE
+HNEAP_RS10360	HNEAP_RS10360	1	NC_013422.1	NA	DUF4390 domain-containing protein	FALSE
+HNEAP_RS09955	HNEAP_RS09955	1	NC_013422.1	NA	DUF721 domain-containing protein	FALSE
+HNEAP_RS08890	HNEAP_RS08890	1	NC_013422.1	NA	electron transport complex subunit RsxA	FALSE
+HNEAP_RS08885	HNEAP_RS08885	1	NC_013422.1	NA	electron transport complex subunit RsxB	FALSE
+HNEAP_RS08875	HNEAP_RS08875	1	NC_013422.1	NA	electron transport complex subunit RsxD	FALSE
+HNEAP_RS01590	HNEAP_RS01590	1	NC_013422.1	NA	elongation factor G	FALSE
+HNEAP_RS02865	HNEAP_RS02865	1	NC_013422.1	NA	elongation factor P	FALSE
+HNEAP_RS07280	HNEAP_RS07280	1	NC_013422.1	NA	elongation factor Ts	FALSE
+HNEAP_RS01595	HNEAP_RS01595	1	NC_013422.1	NA	elongation factor Tu	FALSE
+HNEAP_RS01950	HNEAP_RS01950	1	NC_013422.1	NA	enoyl-ACP reductase	FALSE
+HNEAP_RS11615	HNEAP_RS11615	1	NC_013422.1	NA	F0F1 ATP synthase subunit A	FALSE
+HNEAP_RS11595	HNEAP_RS11595	1	NC_013422.1	NA	F0F1 ATP synthase subunit alpha	FALSE
+HNEAP_RS11605	HNEAP_RS11605	1	NC_013422.1	NA	F0F1 ATP synthase subunit B	FALSE
+HNEAP_RS11585	HNEAP_RS11585	1	NC_013422.1	NA	F0F1 ATP synthase subunit beta	FALSE
+HNEAP_RS11600	HNEAP_RS11600	1	NC_013422.1	NA	F0F1 ATP synthase subunit delta	FALSE
+HNEAP_RS11590	HNEAP_RS11590	1	NC_013422.1	NA	F0F1 ATP synthase subunit gamma	FALSE
+HNEAP_RS02565	HNEAP_RS02565	1	NC_013422.1	NA	FAD:protein FMN transferase	FALSE
+HNEAP_RS00500	HNEAP_RS00500	1	NC_013422.1	NA	Fe(2+) transporter permease subunit FeoB	FALSE
+HNEAP_RS00220	HNEAP_RS00220	1	NC_013422.1	NA	ferrochelatase	FALSE
+HNEAP_RS06005	HNEAP_RS06005	1	NC_013422.1	NA	Fe-S cluster assembly ATPase SufC	FALSE
+HNEAP_RS06000	HNEAP_RS06000	1	NC_013422.1	NA	Fe-S cluster assembly protein SufB	FALSE
+HNEAP_RS06010	HNEAP_RS06010	1	NC_013422.1	NA	Fe-S cluster assembly protein SufD	FALSE
+HNEAP_RS02015	HNEAP_RS02015	1	NC_013422.1	NA	fructose-bisphosphate aldolase class II	FALSE
+HNEAP_RS05010	HNEAP_RS05010	1	NC_013422.1	NA	glucose-6-phosphate isomerase	FALSE
+HNEAP_RS06225	HNEAP_RS06225	1	NC_013422.1	NA	glutamate-1-semialdehyde-2 1-aminomutase	FALSE
+HNEAP_RS01295	HNEAP_RS01295	1	NC_013422.1	NA	glutamate 5-kinase	FALSE
+HNEAP_RS08670	HNEAP_RS08670	1	NC_013422.1	NA	glutamate-5-semialdehyde dehydrogenase	FALSE
+HNEAP_RS01020	HNEAP_RS01020	1	NC_013422.1	NA	glutamate--ammonia ligase	FALSE
+HNEAP_RS11385	HNEAP_RS11385	1	NC_013422.1	NA	glutamate synthase large subunit	FALSE
+HNEAP_RS09615	HNEAP_RS09615	1	NC_013422.1	NA	glutamate synthase subunit beta	FALSE
+HNEAP_RS03455	HNEAP_RS03455	1	NC_013422.1	NA	glutamate--tRNA ligase	FALSE
+HNEAP_RS06220	HNEAP_RS06220	1	NC_013422.1	NA	glutamine--fructose-6-phosphate transaminase (isomerizing)	FALSE
+HNEAP_RS03085	HNEAP_RS03085	1	NC_013422.1	NA	glutamine-hydrolyzing GMP synthase	FALSE
+HNEAP_RS06135	HNEAP_RS06135	1	NC_013422.1	NA	glutamine--tRNA ligase/YqeY domain fusion protein	FALSE
+HNEAP_RS05245	HNEAP_RS05245	1	NC_013422.1	NA	glutamyl-tRNA reductase	FALSE
+HNEAP_RS11685	HNEAP_RS11685	1	NC_013422.1	NA	glycerol-3-phosphate dehydrogenase	FALSE
+HNEAP_RS10210	HNEAP_RS10210	1	NC_013422.1	NA	glycine--tRNA ligase subunit alpha	FALSE
+HNEAP_RS10215	HNEAP_RS10215	1	NC_013422.1	NA	glycine--tRNA ligase subunit beta	FALSE
+HNEAP_RS05235	HNEAP_RS05235	1	NC_013422.1	NA	glycosyltransferase	FALSE
+HNEAP_RS05765	HNEAP_RS05765	1	NC_013422.1	NA	glycosyl transferase family 39	FALSE
+HNEAP_RS06950	HNEAP_RS06950	1	NC_013422.1	NA	GTPase Era	FALSE
+HNEAP_RS08380	HNEAP_RS08380	1	NC_013422.1	NA	GTP cyclohydrolase I FolE2	FALSE
+HNEAP_RS00175	HNEAP_RS00175	1	NC_013422.1	NA	guanylate kinase	FALSE
+HNEAP_RS04970	HNEAP_RS04970	1	NC_013422.1	NA	HAD-IB family hydrolase	FALSE
+HNEAP_RS10945	HNEAP_RS10945	1	NC_013422.1	NA	histidine--tRNA ligase	FALSE
+HNEAP_RS03875	HNEAP_RS03875	1	NC_013422.1	NA	histidinol dehydrogenase	FALSE
+HNEAP_RS06790	HNEAP_RS06790	1	NC_013422.1	NA	Holliday junction resolvase RuvX	FALSE
+HNEAP_RS06980	HNEAP_RS06980	1	NC_013422.1	NA	homoserine dehydrogenase	FALSE
+HNEAP_RS08425	HNEAP_RS08425	1	NC_013422.1	NA	homoserine kinase	FALSE
+HNEAP_RS09135	HNEAP_RS09135	1	NC_013422.1	NA	homoserine O-acetyltransferase	FALSE
+HNEAP_RS10775	HNEAP_RS10775	1	NC_013422.1	NA	hydroxymethylbilane synthase	FALSE
+HNEAP_RS01845	HNEAP_RS01845	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS02210	HNEAP_RS02210	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS12130	HNEAP_RS12130	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS05070	HNEAP_RS05070	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS07110	HNEAP_RS07110	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS07385	HNEAP_RS07385	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS08270	HNEAP_RS08270	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS08300	HNEAP_RS08300	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS10610	HNEAP_RS10610	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS10665	HNEAP_RS10665	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS11620	HNEAP_RS11620	1	NC_013422.1	NA	hypothetical protein	FALSE
+HNEAP_RS00525	HNEAP_RS00525	1	NC_013422.1	NA	imidazoleglycerol-phosphate dehydratase	FALSE
+HNEAP_RS00540	HNEAP_RS00540	1	NC_013422.1	NA	imidazole glycerol phosphate synthase subunit HisF	FALSE
+HNEAP_RS00530	HNEAP_RS00530	1	NC_013422.1	NA	imidazole glycerol phosphate synthase subunit HisH	FALSE
+HNEAP_RS03080	HNEAP_RS03080	1	NC_013422.1	NA	IMP dehydrogenase	FALSE
+HNEAP_RS10200	HNEAP_RS10200	1	NC_013422.1	NA	indole-3-glycerol-phosphate synthase	FALSE
+HNEAP_RS06385	HNEAP_RS06385	1	NC_013422.1	NA	inorganic diphosphatase	FALSE
+HNEAP_RS10900	HNEAP_RS10900	1	NC_013422.1	NA	inositol monophosphatase	FALSE
+HNEAP_RS06120	HNEAP_RS06120	1	NC_013422.1	NA	inositol-phosphate phosphatase	FALSE
+HNEAP_RS06670	HNEAP_RS06670	1	NC_013422.1	NA	integration host factor subunit beta	FALSE
+HNEAP_RS02395	HNEAP_RS02395	1	NC_013422.1	NA	IS5/IS1182 family transposase	FALSE
+HNEAP_RS09665	HNEAP_RS09665	1	NC_013422.1	NA	IS5/IS1182 family transposase	FALSE
+HNEAP_RS03130	HNEAP_RS03130	1	NC_013422.1	NA	isocitrate dehydrogenase (NADP(+))	FALSE
+HNEAP_RS09445	HNEAP_RS09445	1	NC_013422.1	NA	ketol-acid reductoisomerase	FALSE
+HNEAP_RS03820	HNEAP_RS03820	1	NC_013422.1	NA	KpsF/GutQ family sugar-phosphate isomerase	FALSE
+HNEAP_RS08685	HNEAP_RS08685	1	NC_013422.1	NA	leucine--tRNA ligase	FALSE
+HNEAP_RS10335	HNEAP_RS10335	1	NC_013422.1	NA	lipid A biosynthesis acyltransferase	FALSE
+HNEAP_RS10565	HNEAP_RS10565	1	NC_013422.1	NA	lipid A biosynthesis acyltransferase	FALSE
+HNEAP_RS06155	HNEAP_RS06155	1	NC_013422.1	NA	lipid-A-disaccharide synthase	FALSE
+HNEAP_RS08610	HNEAP_RS08610	1	NC_013422.1	NA	lipid A export permease/ATP-binding protein MsbA	FALSE
+HNEAP_RS03805	HNEAP_RS03805	1	NC_013422.1	NA	lipopolysaccharide transport periplasmic protein LptA	FALSE
+HNEAP_RS01095	HNEAP_RS01095	1	NC_013422.1	NA	lipoprotein-releasing system transmembrane subunit LolC	FALSE
+HNEAP_RS06395	HNEAP_RS06395	1	NC_013422.1	NA	LPS-assembly protein LptD	FALSE
+HNEAP_RS03800	HNEAP_RS03800	1	NC_013422.1	NA	LPS export ABC transporter ATP-binding protein	FALSE
+HNEAP_RS03810	HNEAP_RS03810	1	NC_013422.1	NA	LPS export ABC transporter periplasmic protein LptC	FALSE
+HNEAP_RS06190	HNEAP_RS06190	1	NC_013422.1	NA	LPS export ABC transporter permease LptF	FALSE
+HNEAP_RS02100	HNEAP_RS02100	1	NC_013422.1	NA	lysine--tRNA ligase	FALSE
+HNEAP_RS10835	HNEAP_RS10835	1	NC_013422.1	NA	LysR family transcriptional regulator	FALSE
+HNEAP_RS10250	HNEAP_RS10250	1	NC_013422.1	NA	malate dehydrogenase	FALSE
+HNEAP_RS09350	HNEAP_RS09350	1	NC_013422.1	NA	malonyl-[acyl-carrier protein] O-methyltransferase BioC	FALSE
+HNEAP_RS12015	HNEAP_RS12015	1	NC_013422.1	NA	membrane protein insertase YidC	FALSE
+HNEAP_RS06590	HNEAP_RS06590	1	NC_013422.1	NA	MerR family transcriptional regulator	FALSE
+HNEAP_RS12275	HNEAP_RS12275	1	NC_013422.1	NA	MerR family transcriptional regulator	FALSE
+HNEAP_RS05095	HNEAP_RS05095	1	NC_013422.1	NA	metal ABC transporter permease	FALSE
+HNEAP_RS02055	HNEAP_RS02055	1	NC_013422.1	NA	methionine adenosyltransferase	FALSE
+HNEAP_RS09130	HNEAP_RS09130	1	NC_013422.1	NA	methionine biosynthesis protein MetW	FALSE
+HNEAP_RS10370	HNEAP_RS10370	1	NC_013422.1	NA	methionyl-tRNA formyltransferase	FALSE
+HNEAP_RS02065	HNEAP_RS02065	1	NC_013422.1	NA	methylenetetrahydrofolate reductase [NAD(P)H]	FALSE
+HNEAP_RS07235	HNEAP_RS07235	1	NC_013422.1	NA	molecular chaperone Skp	FALSE
+HNEAP_RS05265	HNEAP_RS05265	1	NC_013422.1	NA	molybdopterin-synthase adenylyltransferase MoeB	FALSE
+HNEAP_RS05675	HNEAP_RS05675	1	NC_013422.1	NA	monovalent cation/H+ antiporter subunit A	FALSE
+HNEAP_RS05665	HNEAP_RS05665	1	NC_013422.1	NA	monovalent cation/H+ antiporter subunit D	FALSE
+HNEAP_RS08450	HNEAP_RS08450	1	NC_013422.1	NA	multifunctional CCA addition/repair protein	FALSE
+HNEAP_RS11195	HNEAP_RS11195	1	NC_013422.1	NA	murein biosynthesis integral membrane protein MurJ	FALSE
+HNEAP_RS10685	HNEAP_RS10685	1	NC_013422.1	NA	N-acetyl-gamma-glutamyl-phosphate reductase	FALSE
+HNEAP_RS10035	HNEAP_RS10035	1	NC_013422.1	NA	N-acetylmuramoyl-L-alanine amidase	FALSE
+HNEAP_RS00785	HNEAP_RS00785	1	NC_013422.1	NA	NAD-dependent DNA ligase LigA	FALSE
+HNEAP_RS05085	HNEAP_RS05085	1	NC_013422.1	NA	NAD-dependent epimerase	FALSE
+HNEAP_RS09765	HNEAP_RS09765	1	NC_013422.1	NA	NADH dehydrogenase subunit B	FALSE
+HNEAP_RS09770	HNEAP_RS09770	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit A	FALSE
+HNEAP_RS09760	HNEAP_RS09760	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit C	FALSE
+HNEAP_RS09745	HNEAP_RS09745	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit F	FALSE
+HNEAP_RS09740	HNEAP_RS09740	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit G	FALSE
+HNEAP_RS09715	HNEAP_RS09715	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit L	FALSE
+HNEAP_RS09710	HNEAP_RS09710	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit M	FALSE
+HNEAP_RS09755	HNEAP_RS09755	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit NuoD	FALSE
+HNEAP_RS09735	HNEAP_RS09735	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit NuoH	FALSE
+HNEAP_RS09730	HNEAP_RS09730	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit NuoI	FALSE
+HNEAP_RS09720	HNEAP_RS09720	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit NuoK	FALSE
+HNEAP_RS09705	HNEAP_RS09705	1	NC_013422.1	NA	NADH-quinone oxidoreductase subunit NuoN	FALSE
+HNEAP_RS09725	HNEAP_RS09725	1	NC_013422.1	NA	NADH:ubiquinone oxidoreductase subunit J	FALSE
+HNEAP_RS09750	HNEAP_RS09750	1	NC_013422.1	NA	NAD(P)H-dependent oxidoreductase subunit E	FALSE
+HNEAP_RS09905	HNEAP_RS09905	1	NC_013422.1	NA	NAD+ synthase	FALSE
+HNEAP_RS05660	HNEAP_RS05660	1	NC_013422.1	NA	Na+/H+ antiporter subunit E	FALSE
+HNEAP_RS05650	HNEAP_RS05650	1	NC_013422.1	NA	Na+/H+ antiporter subunit G	FALSE
+HNEAP_RS08665	HNEAP_RS08665	1	NC_013422.1	NA	nicotinate-nucleotide adenylyltransferase	FALSE
+HNEAP_RS11225	HNEAP_RS11225	1	NC_013422.1	NA	nicotinate-nucleotide diphosphorylase (carboxylating)	FALSE
+HNEAP_RS00790	HNEAP_RS00790	1	NC_013422.1	NA	octaprenyl diphosphate synthase	FALSE
+HNEAP_RS06740	HNEAP_RS06740	1	NC_013422.1	NA	ornithine carbamoyltransferase	FALSE
+HNEAP_RS10085	HNEAP_RS10085	1	NC_013422.1	NA	orotate phosphoribosyltransferase	FALSE
+HNEAP_RS06665	HNEAP_RS06665	1	NC_013422.1	NA	orotidine-5'-phosphate decarboxylase	FALSE
+HNEAP_RS07575	HNEAP_RS07575	1	NC_013422.1	NA	O-succinylhomoserine sulfhydrylase	FALSE
+HNEAP_RS05870	HNEAP_RS05870	1	NC_013422.1	NA	outer membrane lipoprotein LolB	FALSE
+HNEAP_RS07240	HNEAP_RS07240	1	NC_013422.1	NA	outer membrane protein assembly factor BamA	FALSE
+HNEAP_RS10135	HNEAP_RS10135	1	NC_013422.1	NA	outer membrane protein assembly factor BamD	FALSE
+HNEAP_RS10405	HNEAP_RS10405	1	NC_013422.1	NA	oxygen-dependent coproporphyrinogen oxidase	FALSE
+HNEAP_RS07800	HNEAP_RS07800	1	NC_013422.1	NA	pantetheine-phosphate adenylyltransferase	FALSE
+HNEAP_RS05695	HNEAP_RS05695	1	NC_013422.1	NA	pantoate--beta-alanine ligase	FALSE
+HNEAP_RS06380	HNEAP_RS06380	1	NC_013422.1	NA	penicillin-binding protein 2	FALSE
+HNEAP_RS07405	HNEAP_RS07405	1	NC_013422.1	NA	peptidase M16	FALSE
+HNEAP_RS05250	HNEAP_RS05250	1	NC_013422.1	NA	peptide chain release factor 1	FALSE
+HNEAP_RS02095	HNEAP_RS02095	1	NC_013422.1	NA	peptide chain release factor 2	FALSE
+HNEAP_RS02850	HNEAP_RS02850	1	NC_013422.1	NA	peptidoglycan-associated lipoprotein	FALSE
+HNEAP_RS06605	HNEAP_RS06605	1	NC_013422.1	NA	phenylalanine--tRNA ligase subunit alpha	FALSE
+HNEAP_RS06600	HNEAP_RS06600	1	NC_013422.1	NA	phenylalanine--tRNA ligase subunit beta	FALSE
+HNEAP_RS12225	HNEAP_RS12225	1	NC_013422.1	NA	phosphatase PAP2 family protein	FALSE
+HNEAP_RS08935	HNEAP_RS08935	1	NC_013422.1	NA	phosphate ABC transporter permease subunit PstC	FALSE
+HNEAP_RS08990	HNEAP_RS08990	1	NC_013422.1	NA	phosphate acetyltransferase PlsX	FALSE
+HNEAP_RS07260	HNEAP_RS07260	1	NC_013422.1	NA	phosphatidate cytidylyltransferase	FALSE
+HNEAP_RS03030	HNEAP_RS03030	1	NC_013422.1	NA	phosphatidylserine decarboxylase	FALSE
+HNEAP_RS05025	HNEAP_RS05025	1	NC_013422.1	NA	phosphoenolpyruvate carboxylase	FALSE
+HNEAP_RS09790	HNEAP_RS09790	1	NC_013422.1	NA	phosphoglucosamine mutase	FALSE
+HNEAP_RS02025	HNEAP_RS02025	1	NC_013422.1	NA	phosphoglycerate kinase	FALSE
+HNEAP_RS10500	HNEAP_RS10500	1	NC_013422.1	NA	phosphoglycolate phosphatase	FALSE
+HNEAP_RS02510	HNEAP_RS02510	1	NC_013422.1	NA	phosphomethylpyrimidine synthase ThiC	FALSE
+HNEAP_RS02225	HNEAP_RS02225	1	NC_013422.1	NA	phospho-N-acetylmuramoyl-pentapeptide-transferase	FALSE
+HNEAP_RS03355	HNEAP_RS03355	1	NC_013422.1	NA	phosphopyruvate hydratase	FALSE
+HNEAP_RS11670	HNEAP_RS11670	1	NC_013422.1	NA	phosphoribosylamine--glycine ligase	FALSE
+HNEAP_RS09375	HNEAP_RS09375	1	NC_013422.1	NA	phosphoribosylaminoimidazolesuccinocarboxamide synthase	FALSE
+HNEAP_RS00545	HNEAP_RS00545	1	NC_013422.1	NA	phosphoribosyl-AMP cyclohydrolase	FALSE
+HNEAP_RS05840	HNEAP_RS05840	1	NC_013422.1	NA	phosphoribosylanthranilate isomerase	FALSE
+HNEAP_RS06440	HNEAP_RS06440	1	NC_013422.1	NA	phosphoribosylformylglycinamidine cyclo-ligase	FALSE
+HNEAP_RS07710	HNEAP_RS07710	1	NC_013422.1	NA	phosphoribosylformylglycinamidine synthase	FALSE
+HNEAP_RS02835	HNEAP_RS02835	1	NC_013422.1	NA	phosphoribulokinase	FALSE
+HNEAP_RS08365	HNEAP_RS08365	1	NC_013422.1	NA	polyprenyl synthetase family protein	FALSE
+HNEAP_RS09875	HNEAP_RS09875	1	NC_013422.1	NA	porin	FALSE
+HNEAP_RS05905	HNEAP_RS05905	1	NC_013422.1	NA	porphobilinogen synthase	FALSE
+HNEAP_RS10340	HNEAP_RS10340	1	NC_013422.1	NA	potassium transporter	FALSE
+HNEAP_RS06690	HNEAP_RS06690	1	NC_013422.1	NA	prephenate dehydrogenase/arogenate dehydrogenase family protein	FALSE
+HNEAP_RS09950	HNEAP_RS09950	1	NC_013422.1	NA	preprotein translocase subunit SecA	FALSE
+HNEAP_RS01540	HNEAP_RS01540	1	NC_013422.1	NA	preprotein translocase subunit SecE	FALSE
+HNEAP_RS01705	HNEAP_RS01705	1	NC_013422.1	NA	preprotein translocase subunit SecY	FALSE
+HNEAP_RS03215	HNEAP_RS03215	1	NC_013422.1	NA	proline--tRNA ligase	FALSE
+HNEAP_RS04560	HNEAP_RS04560	1	NC_013422.1	NA	prolipoprotein diacylglyceryl transferase	FALSE
+HNEAP_RS03385	HNEAP_RS03385	1	NC_013422.1	NA	protein-disulfide reductase DsbD	FALSE
+HNEAP_RS02505	HNEAP_RS02505	1	NC_013422.1	NA	protein-L-isoaspartate O-methyltransferase	FALSE
+HNEAP_RS02675	HNEAP_RS02675	1	NC_013422.1	NA	protein TolA	FALSE
+HNEAP_RS02665	HNEAP_RS02665	1	NC_013422.1	NA	protein TolQ	FALSE
+HNEAP_RS02670	HNEAP_RS02670	1	NC_013422.1	NA	protein TolR	FALSE
+HNEAP_RS10890	HNEAP_RS10890	1	NC_013422.1	NA	protein translocase subunit SecD	FALSE
+HNEAP_RS10895	HNEAP_RS10895	1	NC_013422.1	NA	protein translocase subunit SecF	FALSE
+HNEAP_RS02995	HNEAP_RS02995	1	NC_013422.1	NA	protoporphyrinogen oxidase	FALSE
+HNEAP_RS03785	HNEAP_RS03785	1	NC_013422.1	NA	PTS IIA-like nitrogen-regulatory protein PtsN	FALSE
+HNEAP_RS06020	HNEAP_RS06020	1	NC_013422.1	NA	putative Fe-S cluster assembly protein SufT	FALSE
+HNEAP_RS01755	HNEAP_RS01755	1	NC_013422.1	NA	pyridoxal phosphate-dependent aminotransferase	FALSE
+HNEAP_RS06940	HNEAP_RS06940	1	NC_013422.1	NA	pyridoxine 5'-phosphate synthase	FALSE
+HNEAP_RS09145	HNEAP_RS09145	1	NC_013422.1	NA	pyrroline-5-carboxylate reductase	FALSE
+HNEAP_RS02020	HNEAP_RS02020	1	NC_013422.1	NA	pyruvate kinase	FALSE
+HNEAP_RS02365	HNEAP_RS02365	1	NC_013422.1	NA	quinolinate synthase NadA	FALSE
+HNEAP_RS05270	HNEAP_RS05270	1	NC_013422.1	NA	quinone-dependent dihydroorotate dehydrogenase	FALSE
+HNEAP_RS05050	HNEAP_RS05050	1	NC_013422.1	NA	replicative DNA helicase	FALSE
+HNEAP_RS09290	HNEAP_RS09290	1	NC_013422.1	NA	riboflavin biosynthesis protein RibD	FALSE
+HNEAP_RS09095	HNEAP_RS09095	1	NC_013422.1	NA	ribonuclease HI	FALSE
+HNEAP_RS12025	HNEAP_RS12025	1	NC_013422.1	NA	ribonuclease P protein component	FALSE
+HNEAP_RS01745	HNEAP_RS01745	1	NC_013422.1	NA	ribonuclease R	FALSE
+HNEAP_RS05080	HNEAP_RS05080	1	NC_013422.1	NA	ribonucleoside-diphosphate reductase subunit alpha	FALSE
+HNEAP_RS05075	HNEAP_RS05075	1	NC_013422.1	NA	ribonucleotide-diphosphate reductase subunit beta	FALSE
+HNEAP_RS03515	HNEAP_RS03515	1	NC_013422.1	NA	ribose-5-phosphate isomerase RpiA	FALSE
+HNEAP_RS05885	HNEAP_RS05885	1	NC_013422.1	NA	ribose-phosphate pyrophosphokinase	FALSE
+HNEAP_RS07270	HNEAP_RS07270	1	NC_013422.1	NA	ribosome-recycling factor	FALSE
+HNEAP_RS10510	HNEAP_RS10510	1	NC_013422.1	NA	ribulose-phosphate 3-epimerase	FALSE
+HNEAP_RS02295	HNEAP_RS02295	1	NC_013422.1	NA	RNA polymerase sigma factor RpoD	FALSE
+HNEAP_RS02890	HNEAP_RS02890	1	NC_013422.1	NA	RNA polymerase sigma factor RpoH	FALSE
+HNEAP_RS06265	HNEAP_RS06265	1	NC_013422.1	NA	rod shape-determining protein	FALSE
+HNEAP_RS05950	HNEAP_RS05950	1	NC_013422.1	NA	rRNA maturation RNase YbeY	FALSE
+HNEAP_RS03050	HNEAP_RS03050	1	NC_013422.1	NA	SAM-dependent methyltransferase	FALSE
+HNEAP_RS07305	HNEAP_RS07305	1	NC_013422.1	NA	septation protein A	FALSE
+HNEAP_RS09005	HNEAP_RS09005	1	NC_013422.1	NA	septum formation protein Maf	FALSE
+HNEAP_RS09300	HNEAP_RS09300	1	NC_013422.1	NA	serine hydroxymethyltransferase	FALSE
+HNEAP_RS07815	HNEAP_RS07815	1	NC_013422.1	NA	serine--tRNA ligase	FALSE
+HNEAP_RS03510	HNEAP_RS03510	1	NC_013422.1	NA	shikimate dehydrogenase	FALSE
+HNEAP_RS10350	HNEAP_RS10350	1	NC_013422.1	NA	sigma-54-dependent Fis family transcriptional regulator	FALSE
+HNEAP_RS06965	HNEAP_RS06965	1	NC_013422.1	NA	signal peptidase I	FALSE
+HNEAP_RS07735	HNEAP_RS07735	1	NC_013422.1	NA	signal recognition particle-docking protein FtsY	FALSE
+HNEAP_RS01910	HNEAP_RS01910	1	NC_013422.1	NA	signal recognition particle protein	FALSE
+HNEAP_RS07625	HNEAP_RS07625	1	NC_013422.1	NA	stringent starvation protein A	FALSE
+HNEAP_RS09900	HNEAP_RS09900	1	NC_013422.1	NA	succinate--CoA ligase subunit alpha	FALSE
+HNEAP_RS11200	HNEAP_RS11200	1	NC_013422.1	NA	succinyl-diaminopimelate desuccinylase	FALSE
+HNEAP_RS07795	HNEAP_RS07795	1	NC_013422.1	NA	sulfite exporter TauE/SafE family protein	FALSE
+HNEAP_RS08695	HNEAP_RS08695	1	NC_013422.1	NA	superoxide dismutase	FALSE
+HNEAP_RS08605	HNEAP_RS08605	1	NC_013422.1	NA	tetraacyldisaccharide 4'-kinase	FALSE
+HNEAP_RS03060	HNEAP_RS03060	1	NC_013422.1	NA	thiamine-phosphate kinase	FALSE
+HNEAP_RS09075	HNEAP_RS09075	1	NC_013422.1	NA	thiazole synthase	FALSE
+HNEAP_RS00225	HNEAP_RS00225	1	NC_013422.1	NA	thioredoxin-disulfide reductase	FALSE
+HNEAP_RS10315	HNEAP_RS10315	1	NC_013422.1	NA	thiosulfate oxidation carrier complex protein SoxZ	FALSE
+HNEAP_RS09530	HNEAP_RS09530	1	NC_013422.1	NA	thiosulfohydrolase SoxB	FALSE
+HNEAP_RS03520	HNEAP_RS03520	1	NC_013422.1	NA	threonine ammonia-lyase  biosynthetic	FALSE
+HNEAP_RS06990	HNEAP_RS06990	1	NC_013422.1	NA	threonine synthase	FALSE
+HNEAP_RS06625	HNEAP_RS06625	1	NC_013422.1	NA	threonine--tRNA ligase	FALSE
+HNEAP_RS04555	HNEAP_RS04555	1	NC_013422.1	NA	thymidylate synthase	FALSE
+HNEAP_RS02680	HNEAP_RS02680	1	NC_013422.1	NA	Tol-Pal system beta propeller repeat protein TolB	FALSE
+HNEAP_RS09270	HNEAP_RS09270	1	NC_013422.1	NA	transcription antitermination factor NusB	FALSE
+HNEAP_RS01545	HNEAP_RS01545	1	NC_013422.1	NA	transcription termination/antitermination protein NusG	FALSE
+HNEAP_RS11665	HNEAP_RS11665	1	NC_013422.1	NA	transcription termination factor Rho	FALSE
+HNEAP_RS02035	HNEAP_RS02035	1	NC_013422.1	NA	transketolase	FALSE
+HNEAP_RS07350	HNEAP_RS07350	1	NC_013422.1	NA	translation initiation factor IF-2	FALSE
+HNEAP_RS06620	HNEAP_RS06620	1	NC_013422.1	NA	translation initiation factor IF-3	FALSE
+HNEAP_RS09785	HNEAP_RS09785	1	NC_013422.1	NA	triose-phosphate isomerase	FALSE
+HNEAP_RS09690	HNEAP_RS09690	1	NC_013422.1	NA	tRNA 2-thiouridine(34) synthase MnmA	FALSE
+HNEAP_RS05005	HNEAP_RS05005	1	NC_013422.1	NA	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB	FALSE
+HNEAP_RS09365	HNEAP_RS09365	1	NC_013422.1	NA	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD	FALSE
+HNEAP_RS05705	HNEAP_RS05705	1	NC_013422.1	NA	tRNA(Ile)-lysidine synthetase	FALSE
+HNEAP_RS10400	HNEAP_RS10400	1	NC_013422.1	NA	tRNA threonylcarbamoyladenosine biosynthesis protein RimN	FALSE
+HNEAP_RS05830	HNEAP_RS05830	1	NC_013422.1	NA	tryptophan synthase subunit alpha	FALSE
+HNEAP_RS05835	HNEAP_RS05835	1	NC_013422.1	NA	tryptophan synthase subunit beta	FALSE
+HNEAP_RS10055	HNEAP_RS10055	1	NC_013422.1	NA	tryptophan--tRNA ligase	FALSE
+HNEAP_RS02630	HNEAP_RS02630	1	NC_013422.1	NA	type 1 glutamine amidotransferase	FALSE
+HNEAP_RS02030	HNEAP_RS02030	1	NC_013422.1	NA	type I glyceraldehyde-3-phosphate dehydrogenase	FALSE
+HNEAP_RS06860	HNEAP_RS06860	1	NC_013422.1	NA	type II 3-dehydroquinate dehydratase	FALSE
+HNEAP_RS01505	HNEAP_RS01505	1	NC_013422.1	NA	type III pantothenate kinase	FALSE
+HNEAP_RS10700	HNEAP_RS10700	1	NC_013422.1	NA	type I methionyl aminopeptidase	FALSE
+HNEAP_RS10660	HNEAP_RS10660	1	NC_013422.1	NA	tyrosine--tRNA ligase	FALSE
+HNEAP_RS04510	HNEAP_RS04510	1	NC_013422.1	NA	UbiH/UbiF/VisC/COQ6 family ubiquinone biosynthesis hydroxylase	FALSE
+HNEAP_RS04515	HNEAP_RS04515	1	NC_013422.1	NA	UbiH/UbiF/VisC/COQ6 family ubiquinone biosynthesis hydroxylase	FALSE
+HNEAP_RS05715	HNEAP_RS05715	1	NC_013422.1	NA	ubiquinol-cytochrome c reductase iron-sulfur subunit	FALSE
+HNEAP_RS07660	HNEAP_RS07660	1	NC_013422.1	NA	ubiquinone-binding protein	FALSE
+HNEAP_RS05970	HNEAP_RS05970	1	NC_013422.1	NA	ubiquinone biosynthesis regulatory protein kinase UbiB	FALSE
+HNEAP_RS05440	HNEAP_RS05440	1	NC_013422.1	NA	UDP-2 3-diacylglucosamine diphosphatase	FALSE
+HNEAP_RS07230	HNEAP_RS07230	1	NC_013422.1	NA	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase	FALSE
+HNEAP_RS09960	HNEAP_RS09960	1	NC_013422.1	NA	UDP-3-O-acyl-N-acetylglucosamine deacetylase	FALSE
+HNEAP_RS06210	HNEAP_RS06210	1	NC_013422.1	NA	UDP-glucose/GDP-mannose dehydrogenase family protein	FALSE
+HNEAP_RS03865	HNEAP_RS03865	1	NC_013422.1	NA	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	FALSE
+HNEAP_RS11575	HNEAP_RS11575	1	NC_013422.1	NA	UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase	FALSE
+HNEAP_RS05305	HNEAP_RS05305	1	NC_013422.1	NA	UDP-N-acetylmuramate dehydrogenase	FALSE
+HNEAP_RS02245	HNEAP_RS02245	1	NC_013422.1	NA	UDP-N-acetylmuramate--L-alanine ligase	FALSE
+HNEAP_RS02230	HNEAP_RS02230	1	NC_013422.1	NA	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase	FALSE
+HNEAP_RS02215	HNEAP_RS02215	1	NC_013422.1	NA	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2 6-diaminopimelate ligase	FALSE
+HNEAP_RS02220	HNEAP_RS02220	1	NC_013422.1	NA	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	FALSE
+HNEAP_RS01205	HNEAP_RS01205	1	NC_013422.1	NA	Uma2 family endonuclease	FALSE
+HNEAP_RS07275	HNEAP_RS07275	1	NC_013422.1	NA	UMP kinase	FALSE
+HNEAP_RS09265	HNEAP_RS09265	1	NC_013422.1	NA	undecaprenyl-diphosphate phosphatase	FALSE
+HNEAP_RS02240	HNEAP_RS02240	1	NC_013422.1	NA	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase	FALSE
+HNEAP_RS09620	HNEAP_RS09620	1	NC_013422.1	NA	uroporphyrinogen decarboxylase	FALSE
+HNEAP_RS10780	HNEAP_RS10780	1	NC_013422.1	NA	uroporphyrinogen-III synthase	FALSE
+HNEAP_RS03720	HNEAP_RS03720	1	NC_013422.1	NA	UTP--glucose-1-phosphate uridylyltransferase	FALSE
+HNEAP_RS06900	HNEAP_RS06900	1	NC_013422.1	NA	valine--tRNA ligase	FALSE
+HNEAP_RS00430	HNEAP_RS00430	1	NC_013422.1	NA	VOC family protein	FALSE
+HNEAP_RS08255	HNEAP_RS08255	1	NC_013422.1	NA	VOC family protein	FALSE
+HNEAP_RS02780	HNEAP_RS02780	1	NC_013422.1	NA	WYL domain-containing protein	FALSE

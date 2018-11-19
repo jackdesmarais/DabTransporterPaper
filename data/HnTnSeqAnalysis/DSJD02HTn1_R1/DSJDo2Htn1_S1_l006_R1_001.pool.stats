@@ -1,0 +1,22 @@
+Read 97513552 mapped reads for 2166318 distinct barcodes
+(Skipped 192645 reads with qBeg > 3)
+138232 barcodes seen 10 or more times, map 128433 (minFrac 0.75 minRatio 8)
+FewGood	2144	0.0155
+LoRatio	615	0.0044
+NoCons	2297	0.0166
+PastEnd	4743	0.0343
+Usable	128433	0.9291
+Masked 30816 off-by-1 barcodes (499112 reads) leaving 102511 barcodes
+Reads for those barcodes: 87632416 of 97513552 (89.9%)
+Chao2 estimate of #barcodes present (may be inflated for sequencing error): 4682289
+102511 insertions in genome are at 73463 different locations
+Found 72365 insertions (52231 distinct locations) in central 10-90% of genes
+Found central insertions for 1842 of 2326 protein-coding genes
+Hit rate in (crude) likely essentials: 0.26 other 0.79
+Wrote proteins of 300nt or more with no good insertions to g/Halo/DSJDo2Htn1_S1_l006_R1_001.pool.unhit
+Wrote 18 genes with surprising insertions in central 10-90% to g/Halo/DSJDo2Htn1_S1_l006_R1_001.pool.surprise
+Wrote read and strain counts for hit genes to g/Halo/DSJDo2Htn1_S1_l006_R1_001.pool.hit
+Strains per hit protein: median 30 mean 38.7
+Gene and transposon on same strand: 51.4%
+Reads per hit protein: median 24262 mean 32549.1 bias (ratio) 1.34
+Reads per million for hit proteins: median 248.80 mean 333.79

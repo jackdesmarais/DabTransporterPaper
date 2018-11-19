@@ -1,0 +1,11 @@
+value_type,name,name,name,name,name,name,name,name,name,name,name,name
+column,1,2,3,4,5,6,7,8,9,10,11,12
+,,,,,,,,,,,,
+A,CAF+sbta3+succDMSO,CAF+sbta3+succDMSO,CAF+sbta3+succDMSO,CAF+sbta3+glucDMSO,CAF+sbta3+glucDMSO,CAF+sbta3+glucDMSO,CAF+sbta3+glucCCCP,CAF+sbta3+glucCCCP,CAF+sbta3+glucCCCP,CAF+sbta3+succCCCP,CAF+sbta3+succCCCP,CAF+sbta3+succCCCP
+B,CAF+sbta2+succDMSO,CAF+sbta2+succDMSO,CAF+sbta2+succDMSO,CAF+sbta2+glucDMSO,CAF+sbta2+glucDMSO,CAF+sbta2+glucDMSO,CAF+sbta2+glucCCCP,CAF+sbta2+glucCCCP,CAF+sbta2+glucCCCP,CAF+sbta2+succCCCP,CAF+sbta2+succCCCP,CAF+sbta2+succCCCP
+C,CAF+sbta1+succDMSO,CAF+sbta1+succDMSO,CAF+sbta1+succDMSO,CAF+sbta1+glucDMSO,CAF+sbta1+glucDMSO,CAF+sbta1+glucDMSO,CAF+sbta1+glucCCCP,CAF+sbta1+glucCCCP,CAF+sbta1+glucCCCP,CAF+sbta1+succCCCP,CAF+sbta1+succCCCP,CAF+sbta1+succCCCP
+D,CAF+DAB2+succDMSO,CAF+DAB2+succDMSO,CAF+DAB2+succDMSO,CAF+DAB2+glucDMSO,CAF+DAB2+glucDMSO,CAF+DAB2+glucDMSO,CAF+DAB2+glucCCCP,CAF+DAB2+glucCCCP,CAF+DAB2+glucCCCP,CAF+DAB2+succCCCP,CAF+DAB2+succCCCP,CAF+DAB2+succCCCP
+E,CAF+DAB1+succDMSO,CAF+DAB1+succDMSO,CAF+DAB1+succDMSO,CAF+DAB1+glucDMSO,CAF+DAB1+glucDMSO,CAF+DAB1+glucDMSO,CAF+DAB1+glucCCCP,CAF+DAB1+glucCCCP,CAF+DAB1+glucCCCP,CAF+DAB1+succCCCP,CAF+DAB1+succCCCP,CAF+DAB1+succCCCP
+F,CAF+HCA2+succDMSO,CAF+HCA2+succDMSO,CAF+HCA2+succDMSO,CAF+HCA2+glucDMSO,CAF+HCA2+glucDMSO,CAF+HCA2+glucDMSO,CAF+HCA2+glucCCCP,CAF+HCA2+glucCCCP,CAF+HCA2+glucCCCP,CAF+HCA2+succCCCP,CAF+HCA2+succCCCP,CAF+HCA2+succCCCP
+G,CAF+GFP+succDMSO,CAF+GFP+succDMSO,CAF+GFP+succDMSO,CAF+GFP+glucDMSO,CAF+GFP+glucDMSO,CAF+GFP+glucDMSO,CAF+GFP+glucCCCP,CAF+GFP+glucCCCP,CAF+GFP+glucCCCP,CAF+GFP+succCCCP,CAF+GFP+succCCCP,CAF+GFP+succCCCP
+H,BW+GFP+succDMSO,BW+GFP+succDMSO,BW+GFP+succDMSO,BW+GFP+glucDMSO,BW+GFP+glucDMSO,BW+GFP+glucDMSO,BW+GFP+glucCCCP,BW+GFP+glucCCCP,BW+GFP+glucCCCP,BW+GFP+succCCCP,BW+GFP+succCCCP,BW+GFP+succCCCP

@@ -1,0 +1,23 @@
+Can't open /media/savage/SavageLabSe/2017_09_30_HighSeq/Jack/Halo2/DSJD03Htn2_S2_L006_R1_001..parts//TnSeq_part00.mapped: No such file or directory at /home/savage/Documents/JackDylanAnalysis/berkeleylab-feba-7de9bcaf0960/bin/DesignRandomPool.pl line 73.
+Read 45277838 mapped reads for 1299407 distinct barcodes
+(Skipped 87340 reads with qBeg > 3)
+109978 barcodes seen 10 or more times, map 104739 (minFrac 0.75 minRatio 8)
+FewGood	1774	0.0161
+LoRatio	435	0.0040
+NoCons	1319	0.0120
+PastEnd	1711	0.0156
+Usable	104739	0.9524
+Masked 5831 off-by-1 barcodes (93340 reads) leaving 99429 barcodes
+Reads for those barcodes: 40534321 of 45277838 (89.5%)
+Chao2 estimate of #barcodes present (may be inflated for sequencing error): 3282593
+99429 insertions in genome are at 71754 different locations
+Found 70095 insertions (50953 distinct locations) in central 10-90% of genes
+Found central insertions for 1821 of 2326 protein-coding genes
+Hit rate in (crude) likely essentials: 0.24 other 0.79
+Wrote proteins of 300nt or more with no good insertions to g/Halo/DSJD03Htn2_S2_l006_R1_001.pool.unhit
+Wrote 16 genes with surprising insertions in central 10-90% to g/Halo/DSJD03Htn2_S2_l006_R1_001.pool.surprise
+Wrote read and strain counts for hit genes to g/Halo/DSJD03Htn2_S2_l006_R1_001.pool.hit
+Strains per hit protein: median 29 mean 37.9
+Gene and transposon on same strand: 51.4%
+Reads per hit protein: median 11375 mean 15264.4 bias (ratio) 1.34
+Reads per million for hit proteins: median 251.23 mean 337.13
