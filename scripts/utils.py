@@ -5,13 +5,18 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib
+import numpy as np
+
 
 from Bio import SeqIO
+from os import path
 from matplotlib import pyplot as plt
 
 import matplotlib.font_manager
 
 matplotlib.font_manager.findSystemFonts(fontpaths='/System/Library/Fonts/*', fontext='ttf')
+
+greyish = sns.xkcd_rgb['greyish']
 
 qual_palette = sns.color_palette('Paired', n_colors=10, desat=0.9)
 
@@ -48,3 +53,43 @@ for req in SeqIO.parse(genome_fname, "fasta"):
 merge_on = pool_df1.columns.tolist()
 total_pool_df = pool_df1.merge(pool_df2, on=merge_on, how='outer')
 total_pool_df['n_total'] = total_pool_df.n + total_pool_df.n2
+
+
+# loading more data from for plotting
+pathToData = "../data/2017_11_03_miseq_barSeq1/"
+logratios_df = pd.read_csv(path.join(pathToData, 'fit_logratios.tab'), sep='\t')
+
+# smaller_df
+small_log_df = pd.DataFrame()
+small_log_df["locusId"] = logratios_df["locusId"]
+small_log_df["sysName"] = logratios_df["sysName"]
+small_log_df["desc"] = logratios_df["desc"]
+small_log_df["HighCO2Log"] = logratios_df["setAS2 HCO"]
+small_log_df["LowCO2Log"] = logratios_df["setAS3 LCO"]
+
+pathToData = "../data/2017_11_03_miseq_barSeq2/"
+logratios_df = pd.read_csv(path.join(pathToData, 'fit_logratios.tab'), sep='\t')
+
+# smaller_df
+small_log_df2 = pd.DataFrame()
+small_log_df2["locusId"] = logratios_df["locusId"]
+small_log_df2["sysName"] = logratios_df["sysName"]
+small_log_df2["desc"] = logratios_df["desc"]
+small_log_df2["HighCO2Log"] = logratios_df["setAS2 HCO"]
+small_log_df2["LowCO2Log"] = logratios_df["setAS3 LCO"]
+
+merge_on = ['locusId','sysName','desc']
+
+small_log_df = small_log_df.merge(small_log_df2, on = merge_on, how = 'outer', suffixes=('_1','_2'))
+
+# Absolute difference of 1.0 in the log fitness indicates twofold difference in linear scale 
+# since we are using log base2 here. 
+diff1 = small_log_df.LowCO2Log_1 - small_log_df.HighCO2Log_1
+diff2 = small_log_df.LowCO2Log_2 - small_log_df.HighCO2Log_2
+
+small_log_df['hcr'] = (diff1 <= -1.0) & (diff2 <= -1.0)
+
+big_diff_mask =  (np.abs(diff1) >= 1.0) & (np.abs(diff2) >= 1.0)
+small_diff_mask = np.logical_not(big_diff_mask)
+big_diff_df = small_log_df[big_diff_mask]
+small_diff_df = small_log_df[small_diff_mask]
