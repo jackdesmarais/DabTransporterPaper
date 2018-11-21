@@ -289,6 +289,26 @@ class PlateTimeCourse(object):
                       for col in cols_to_use)
         return yields
 
+    def GrowthYieldCutoff(self,cutoffTime, density_label='OD600'):
+        """Computes the maximum density of the culture.
+
+        Calculated as the maximum observed density.
+        Recommended that you blank and smooth first.
+
+        cutoffTime time to cutoff yield calc in hours
+
+        Returns:
+            A dictionary mapping column names to growth yield.
+        """
+        OD_data = self.data_for_label(density_label)
+        OD_data=OD_data[OD_data.time_s<=cutoffTime*60*60]
+        cols = set(OD_data)
+        cols_to_use = cols.difference(self.SPECIAL_COLS)
+
+        yields = dict((col, np.nanmax(OD_data[col].values))
+                      for col in cols_to_use)
+        return yields
+
     def AreaUnderTheCurve(self, density_label='OD600'):
         """Computes the integral of the culture densiity using the trapazoid rule
 
