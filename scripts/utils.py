@@ -10,6 +10,9 @@ import numpy as np
 
 from Bio import SeqIO
 from os import path
+
+from scipy.stats import ttest_ind
+
 from matplotlib import pyplot as plt
 
 import matplotlib.font_manager
