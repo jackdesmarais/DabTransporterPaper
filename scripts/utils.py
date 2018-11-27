@@ -23,7 +23,7 @@ greyish = sns.xkcd_rgb['greyish']
 
 qual_palette = sns.color_palette('Paired', n_colors=10, desat=0.9)
 
-font_dict = {'family':'sans-serif','sans-serif':['Helvetica']}
+font_dict = {'family':'sans-serif','sans-serif':['Helvetica','DejaVu Sans']}
 plt.rc('font', **font_dict)
 plt.rc('axes', labelsize=26) 
 
