@@ -1,0 +1,13 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_II_III.hmm
+# Target file:     All_Proteins.faa
+# Option settings: hmmsearch --tblout All_Proteins-v-rubpII-III.txt -T 500 /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_II_III.hmm All_Proteins.faa 
+# Current dir:     /home/sdiamond/Savage_DabA/Search
+# Date:            Tue Dec  4 16:19:37 2018
+# [ok]

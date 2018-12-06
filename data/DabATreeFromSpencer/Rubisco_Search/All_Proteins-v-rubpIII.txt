@@ -1,0 +1,32 @@
+#                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                  accession  query name                 accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#          ------------------- ----------       -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tr|A0A1U7EWL2|A0A1U7EWL2_NATPD -          rubisco_form_III_alignment -           1.4e-188  634.6   0.0    2e-188  634.0   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Natronomonas pharaonis (strain ATCC 35678 / DSM 2160 / CIP 103997 / NBRC 14720 / NCIMB 2260 / Gabara) OX=348780 GN=rbcL PE=3 SV=1
+tr|A0A1I0NFB5|A0A1I0NFB5_9EURY -          rubisco_form_III_alignment -           3.7e-176  593.6   0.2  6.8e-176  592.7   0.2   1.4   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halobacterium jilantaiense OX=355548 GN=rbcL PE=3 SV=1
+tr|M0AUM0|M0AUM0_NATA1         -          rubisco_form_III_alignment -           1.4e-175  591.7   0.1  2.4e-175  590.9   0.1   1.4   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Natrialba asiatica (strain ATCC 700177 / DSM 12278 / JCM 9576 / FERM P-10747 / NBRC 102637 / 172P1) OX=29540 GN=rbcL PE=3 SV=1
+tr|A0A1G9R9U4|A0A1G9R9U4_9EURY -          rubisco_form_III_alignment -             2e-173  584.6   0.0  2.8e-173  584.1   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halogranum gelatinilyticum OX=660521 GN=rbcL PE=3 SV=1
+tr|I7CQ19|I7CQ19_NATSJ         -          rubisco_form_III_alignment -           3.4e-172  580.5   0.1  6.3e-172  579.6   0.1   1.4   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Natrinema sp. (strain J7-2) OX=406552 GN=rbcL PE=3 SV=1
+tr|A0A1H6ASK2|A0A1H6ASK2_9EURY -          rubisco_form_III_alignment -           6.5e-171  576.3   0.0    1e-170  575.7   0.0   1.3   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halobellus limi OX=699433 GN=rbcL PE=3 SV=1
+tr|A0A1G9TUU1|A0A1G9TUU1_9EURY -          rubisco_form_III_alignment -           4.8e-170  573.5   0.8  1.1e-169  572.2   0.8   1.5   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Haloarchaeobius iranensis OX=996166 GN=rbcL PE=3 SV=1
+tr|A0A1I6GN90|A0A1I6GN90_9EURY -          rubisco_form_III_alignment -           1.1e-169  572.3   0.0  1.5e-169  571.9   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halogeometricum rufum OX=553469 GN=rbcL PE=3 SV=1
+tr|E4NPX6|E4NPX6_HALBP         -          rubisco_form_III_alignment -           1.6e-169  571.7   0.0  2.3e-169  571.2   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halogeometricum borinquense (strain ATCC 700274 / DSM 11551 / JCM 10706 / PR3) OX=469382 GN=rbcL PE=3 SV=1
+tr|M0HKI1|M0HKI1_9EURY         -          rubisco_form_III_alignment -           1.1e-168  569.0   0.0  1.6e-168  568.5   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Haloferax larsenii JCM 13917 OX=1227460 GN=rbcL PE=3 SV=1
+tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY -          rubisco_form_III_alignment -           3.1e-168  567.5   0.1  5.7e-168  566.6   0.1   1.4   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halobellus clavatus OX=660517 GN=rbcL PE=3 SV=1
+tr|A0A1Q1FF31|A0A1Q1FF31_9EURY -          rubisco_form_III_alignment -           3.4e-168  567.4   0.0  5.5e-168  566.7   0.0   1.3   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halorientalis sp. IM1011 OX=1932360 GN=rbcL PE=3 SV=1
+tr|D4GV77|D4GV77_HALVD         -          rubisco_form_III_alignment -           6.9e-168  566.3   0.0  9.9e-168  565.8   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2) OX=309800 GN=rbcL PE=3 SV=1
+tr|A0A0W1RZF9|A0A0W1RZF9_9EURY -          rubisco_form_III_alignment -           1.4e-167  565.4   0.0  1.9e-167  564.9   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Haloferax sp. SB29 OX=1544718 GN=rbcL PE=3 SV=1
+tr|A0A1G8VBG1|A0A1G8VBG1_9EURY -          rubisco_form_III_alignment -           5.1e-167  563.5   0.0  8.5e-167  562.7   0.0   1.3   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halovenus aranensis OX=890420 GN=rbcL PE=3 SV=1
+tr|A0A1G7MZT7|A0A1G7MZT7_9EURY -          rubisco_form_III_alignment -           3.4e-164  554.1   0.1  6.7e-164  553.2   0.1   1.4   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halorientalis regularis OX=660518 GN=rbcL PE=3 SV=1
+tr|C7P079|C7P079_HALMD         -          rubisco_form_III_alignment -           2.4e-162  548.1   0.0  3.4e-162  547.6   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halomicrobium mukohataei (strain ATCC 700874 / DSM 12286 / JCM 9738 / NCIMB 13541) OX=485914 GN=rbcL PE=3 SV=1
+tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY -          rubisco_form_III_alignment -           2.5e-162  548.0   0.0  3.7e-162  547.4   0.0   1.3   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halopenitus persicus OX=1048396 GN=rbcL PE=3 SV=1
+tr|A0A1H6ITK8|A0A1H6ITK8_9EURY -          rubisco_form_III_alignment -           7.9e-159  536.5   0.0  1.1e-158  536.0   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase OS=Halopenitus malekzadehii OX=1267564 GN=rbcL PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_III.hmm
+# Target file:     All_Proteins.faa
+# Option settings: hmmsearch --tblout All_Proteins-v-rubpIII.txt -T 450 /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_III.hmm All_Proteins.faa 
+# Current dir:     /home/sdiamond/Savage_DabA/Search
+# Date:            Tue Dec  4 16:26:04 2018
+# [ok]

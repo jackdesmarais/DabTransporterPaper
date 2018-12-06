@@ -1,0 +1,75 @@
+DATASET_SYMBOL
+#Symbol datasets allow the display of various symbols on the branches of the tree. For each node, one or more symbols can be defined.
+#Each symbol's color, size and position along the branch can be specified.
+
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Target Genomes
+
+#dataset color (can be changed later)
+COLOR	#ffff00
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 5:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+
+LEGEND_TITLE	Phylum Colors
+LEGEND_SHAPES	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+LEGEND_COLORS	#006838	#00A79D	#1B75BC	#32C4E8	#39B54A	#8B5E3C	#90AAE1	#92278F	#939598	#C2B59B	#C49A6C	#ED1C24	#F16447	#F9ED32	#FBB040	#BE1E2D	#000000
+LEGEND_LABELS	Epsilonproteobacteria	Bacteroidetes	Actinobacteria	Nitrospirae	Verrucomicrobia	Deltaproteobacteria	Firmicutes	Aquificae	Alphaproteobacteria	Betaproteobacteria	Gammaproteobacteria	Chlamydiae	Chloroflexi	Euryarchaeota	Spirochaetes	Planctomycetes	Other
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#largest symbol will be displayed with this size, others will be proportionally smaller.
+MAXIMUM_SIZE	4
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+#the following fields are required for each node:
+#ID,symbol,size,color,fill,position,label
+#symbol should be a number between 1 and 5:
+#1: rectangle
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+
+#size can be any number. Maximum size in the dataset will be displayed using MAXIMUM_SIZE, while others will be proportionally smaller
+#color can be in hexadecimal, RGB or RGBA notation. If RGB or RGBA are used, dataset SEPARATOR cannot be comma.
+#fill can be 1 or 0. If set to 0, only the outline of the symbol will be displayed.
+#position is a number between 0 and 1 and defines the position of the symbol on the branch (for example, position 0 is exactly at the start of node branch, position 0.5 is in the middle, and position 1 is at the end)
+
+DATA
+#Examples
+
+#NAME	SHAPE	SIZE	COLOR	FILL	POSITION
+
+sp|Q5ZYZ0|Y221_LEGPH	3	8	#32C4E8	1	1
+sp|Q9KRQ4|Y1582_VIBCH	3	8	#39B54A	1	1
+sp|Q81NL0|Y3182_BACAN	3	8	#8B5E3C	1	1
+sp|Q31HC3|Y854_HYDCU	3	8	#8DC63F	1	1
+tr|D0KWS7|D0KWS7_HALNC	3	8	#90AAE1	1	1
+tr|D0KZ77|D0KZ77_HALNC	3	8	#90AAE1	1	1

@@ -1,0 +1,39 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_II_III.hmm
+# target sequence database:        All_Proteins.faa
+# per-seq hits tabular output:     All_Proteins-v-rubpII-III.txt
+# sequence reporting threshold:    score >= 500
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rubisco_form_II_III_alignment  [M=479]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (479 nodes)
+Target sequences:                      3228402  (1033436047 residues searched)
+Passed MSV filter:                     80815  (0.0250325); expected 64568.0 (0.02)
+Passed bias filter:                    67659  (0.0209574); expected 64568.0 (0.02)
+Passed Vit filter:                      5354  (0.00165841); expected 3228.4 (0.001)
+Passed Fwd filter:                       393  (0.000121732); expected 32.3 (1e-05)
+Initial search space (Z):            3228402  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 79.97u 12.90s 00:01:32.87 Elapsed: 00:00:18.35
+# Mc/sec: 26976.34
+//
+[ok]

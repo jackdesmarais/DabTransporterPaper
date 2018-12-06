@@ -1,0 +1,757 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/sdiamond/database/Custom_HMM/Metabolic_HMMs_Original/rubisco_form_III.hmm
+# target sequence database:        All_Proteins.faa
+# per-seq hits tabular output:     All_Proteins-v-rubpIII.txt
+# sequence reporting threshold:    score >= 450
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rubisco_form_III_alignment  [M=440]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+   1.4e-188  634.6   0.0     2e-188  634.0   0.0    1.2  1  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD  Ribulose bisphosphate carboxylas
+   3.7e-176  593.6   0.2   6.8e-176  592.7   0.2    1.4  1  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY  Ribulose bisphosphate carboxylas
+   1.4e-175  591.7   0.1   2.4e-175  590.9   0.1    1.4  1  tr|M0AUM0|M0AUM0_NATA1          Ribulose bisphosphate carboxylas
+     2e-173  584.6   0.0   2.8e-173  584.1   0.0    1.2  1  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY  Ribulose bisphosphate carboxylas
+   3.4e-172  580.5   0.1   6.3e-172  579.6   0.1    1.4  1  tr|I7CQ19|I7CQ19_NATSJ          Ribulose bisphosphate carboxylas
+   6.5e-171  576.3   0.0     1e-170  575.7   0.0    1.3  1  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY  Ribulose bisphosphate carboxylas
+   4.8e-170  573.5   0.8   1.1e-169  572.2   0.8    1.5  1  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY  Ribulose bisphosphate carboxylas
+   1.1e-169  572.3   0.0   1.5e-169  571.9   0.0    1.2  1  tr|A0A1I6GN90|A0A1I6GN90_9EURY  Ribulose bisphosphate carboxylas
+   1.6e-169  571.7   0.0   2.3e-169  571.2   0.0    1.2  1  tr|E4NPX6|E4NPX6_HALBP          Ribulose bisphosphate carboxylas
+   1.1e-168  569.0   0.0   1.6e-168  568.5   0.0    1.2  1  tr|M0HKI1|M0HKI1_9EURY          Ribulose bisphosphate carboxylas
+   3.1e-168  567.5   0.1   5.7e-168  566.6   0.1    1.4  1  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY  Ribulose bisphosphate carboxylas
+   3.4e-168  567.4   0.0   5.5e-168  566.7   0.0    1.3  1  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY  Ribulose bisphosphate carboxylas
+   6.9e-168  566.3   0.0   9.9e-168  565.8   0.0    1.2  1  tr|D4GV77|D4GV77_HALVD          Ribulose bisphosphate carboxylas
+   1.4e-167  565.4   0.0   1.9e-167  564.9   0.0    1.2  1  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY  Ribulose bisphosphate carboxylas
+   5.1e-167  563.5   0.0   8.5e-167  562.7   0.0    1.3  1  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY  Ribulose bisphosphate carboxylas
+   3.4e-164  554.1   0.1   6.7e-164  553.2   0.1    1.4  1  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY  Ribulose bisphosphate carboxylas
+   2.4e-162  548.1   0.0   3.4e-162  547.6   0.0    1.2  1  tr|C7P079|C7P079_HALMD          Ribulose bisphosphate carboxylas
+   2.5e-162  548.0   0.0   3.7e-162  547.4   0.0    1.3  1  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY  Ribulose bisphosphate carboxylas
+   7.9e-159  536.5   0.0   1.1e-158  536.0   0.0    1.2  1  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY  Ribulose bisphosphate carboxylas
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|A0A1U7EWL2|A0A1U7EWL2_NATPD  Ribulose bisphosphate carboxylase OS=Natronomonas pharaonis (strain ATCC 35678 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  634.0   0.0  1.1e-193    2e-188       6     439 ..       2     416 ..       1     417 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 634.0 bits;  conditional E-value: 1.1e-193
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +yad++d+syeP++ddl+++fr+ P+eGis++daa+rva+ess+gtW++l++++d++++++l++++   +++g+   +v
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD   2 EYADFLDESYEPSDDDLVCTFRLVPGEGISVADAAARVASESSNGTWAALSPESDVRQYSALACDIGPEDEHGT---QV 77 
+                                     79***********************************************************************9...7* PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp+ lfe+gslpq+l++iaGni+gmkav+++rl+d+e+P+ + ++f+GP++G+++ +e+l+  drP l+tvpkPkv
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD  78 TVAYPSGLFEDGSLPQILSCIAGNIMGMKAVETIRLLDCEWPAVIARSFPGPQYGSDVRTELLDAGDRPPLATVPKPKV 156
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+stee+ +va+++++gGvdl+kddenlt+q+fn fe+rv++ ++++d++e+etGerk+yl+nita+++em+rr+++v+
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD 157 GLSTEEHVSVAESAWRGGVDLLKDDENLTDQTFNPFEQRVADSFAARDRLEEETGERKDYLVNITAETDEMVRRAEFVD 235
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     d+G+++vmvd++++Gws+lq++r+++ed+dlaihahramhaaf+r p+hG+sm +la++arl+Gvd++h+Gtag+Gkle
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD 236 DHGGSFVMVDIITCGWSGLQTVRRRTEDLDLAIHAHRAMHAAFDRLPQHGVSMRCLAQFARLAGVDHIHTGTAGLGKLE 314
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e+++ i+++              l++dl+++++vlPvasGGlhPg++++++++lG+++++q+GGG++ghPdGt+aG
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD 315 --NEDTAGINEW--------------LRSDLHGHSDVLPVASGGLHPGIVDQLLDALGTNVMVQAGGGIHGHPDGTEAG 377
+                                     ..8999***999..............99*************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     a+a+r+av+a+ +g+sld++a+++++l++al++wg+++p
+  tr|A0A1U7EWL2|A0A1U7EWL2_NATPD 378 ARALRAAVDAYADGESLDSRAESVPALRTALDEWGTQNP 416
+                                     ************************************998 PP
+
+>> tr|A0A1I0NFB5|A0A1I0NFB5_9EURY  Ribulose bisphosphate carboxylase OS=Halobacterium jilantaiense OX=355548 GN=rbcL PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  592.7   0.2    4e-181  6.8e-176       6     439 ..       5     414 ..       1     415 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 592.7 bits;  conditional E-value: 4e-181
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +yad+vd +yeP ++dl+++f + P+eG+s+ daagrva+ess+gtW++l     ++rv++l+a ++++   gdg   v
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY   5 EYADFVDDGYEPRDTDLVCQFVLDPGEGMSMVDAAGRVASESSNGTWAAL---NVPDRVTELSATAFDI---GDG--EV 75 
+                                     79************************************************...56789********976...665..69 PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp +lfe g++pq+l++iaGni+gmkav+++rl d+e+P+el  +f+GP++G+++ +eil+ + rP ++tvpkPkv
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY  76 TVAYPGDLFEAGNMPQILSCIAGNIMGMKAVDSIRLVDCEWPEELATSFPGPQYGSDVKTEILDAEGRPATATVPKPKV 154
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+ste++++v y++++gGvdl+kddenlt+q+fnrfe+rvk+ ++++d++e+etG+rk+yl+nitad++ m  rl+lva
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY 155 GLSTEQHAQVGYDAWVGGVDLLKDDENLTNQSFNRFEDRVKQSFEMRDRAEDETGDRKDYLVNITADTETMLDRLELVA 233
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     ++G+ +vmvdv+++Gwsa+q++re a+d++laihahramhaaf+r  +hG+sm vla++arl Gvd++h+Gtag+Gkle
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY 234 EQGGGFVMVDVITCGWSAVQTVREHAADHGLAIHAHRAMHAAFDRLDHHGVSMRVLAQVARLTGVDHIHTGTAGLGKLE 312
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e++  i+++              l+ dl+++++vlPvasGGlhPg++ +++++lG+d+++qvGGG++ghPdGt+aG
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY 313 --NEDTPGINEW--------------LSGDLYGLSDVLPVASGGLHPGTVAPLLDALGQDIIVQVGGGIHGHPDGTEAG 375
+                                     ..8999999999..............999************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     a+a++qa++a+ +g++   +a++h+el++alekwg+ +p
+  tr|A0A1I0NFB5|A0A1I0NFB5_9EURY 376 ARALQQAIDAYQDGVDAATYAEDHPELATALEKWGTGSP 414
+                                     ***********************************8766 PP
+
+>> tr|M0AUM0|M0AUM0_NATA1  Ribulose bisphosphate carboxylase OS=Natrialba asiatica (strain ATCC 700177 / DSM 12278 / JCM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  590.9   0.1  1.4e-180  2.4e-175       6     439 ..       5     417 ..       1     418 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 590.9 bits;  conditional E-value: 1.4e-180
+  rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyivkiay 88 
+                                 +y+d++d++y P  ++l+++fr+ePae ++ie aa+rva+ess+gtW+tl   +d++ +++l a + e+++  +    +++ay
+      tr|M0AUM0|M0AUM0_NATA1   5 EYDDFLDRTYDPAATELVCTFRIEPAEEMTIEAAASRVASESSNGTWATL--HVDESELTHLGAVACEIDESEN---EITVAY 82 
+                                 79************************************************..8899999**********99988...59**** PP
+
+  rubisco_form_III_alignment  89 plelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkvGysteeve 171
+                                 p++lfe gs+pq+l++iaGni+gmkav+++rled+e+P++++  f+GP++G+ + re l+  drP+l+tvpkPkvG+st  ++
+      tr|M0AUM0|M0AUM0_NATA1  83 PADLFEAGSMPQILSCIAGNIMGMKAVESIRLEDCEWPESIVSGFPGPQFGTGVAREKLDAGDRPILATVPKPKVGLSTAAHA 165
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 172 kvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmvdvv 254
+                                 +v +e+++gGvdl+kddenlt+q fn fe+r+++ l+++d+ve++ Gerk+yl+n+t++++em  r++lva++G+ +vmvdv+
+      tr|M0AUM0|M0AUM0_NATA1 166 RVGEEAWRGGVDLLKDDENLTDQDFNPFEDRLAESLAARDRVEEDVGERKDYLVNVTGETTEMLERVDLVAEHGGGFVMVDVI 248
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 255 vaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadilrek 337
+                                 ++Gw+a+q++re+++d++laihahramhaaf+r  +hG+sm vla++arl Gvd++h+Gtag+Gkl+  +e++  i+d+    
+      tr|M0AUM0|M0AUM0_NATA1 249 TCGWAAVQSVRERCADHGLAIHAHRAMHAAFDRLDHHGVSMRVLAQIARLCGVDHIHTGTAGLGKLA--NEDTPGINDW---- 325
+                                 ******************************************************************9..8999999999.... PP
+
+  rubisco_form_III_alignment 338 kykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegisldek 420
+                                           l+ d +++kpvlPvasGGlhPg+++++i++lG+d+ +q+GGG++ghPdGt+aGaka+rq+v+a+l+g++lde+
+      tr|M0AUM0|M0AUM0_NATA1 326 ----------LHGDCQGLKPVLPVASGGLHPGVVDRLIDALGTDICIQAGGGIHGHPDGTHAGAKALRQSVDASLDGVPLDEY 398
+                                 ..........999********************************************************************** PP
+
+  rubisco_form_III_alignment 421 akehkelkkalekwgevkp 439
+                                 a+eh+el++al+kwg ++p
+      tr|M0AUM0|M0AUM0_NATA1 399 AQEHAELATALDKWGAETP 417
+                                 ***************9887 PP
+
+>> tr|A0A1G9R9U4|A0A1G9R9U4_9EURY  Ribulose bisphosphate carboxylase OS=Halogranum gelatinilyticum OX=660521 GN=rbcL PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.1   0.0  1.6e-178  2.8e-173       6     439 ..       5     414 ..       1     415 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 584.1 bits;  conditional E-value: 1.6e-178
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +y+d++d sy+P ++dl+++fr+ Pa+G+s+e aa+rva+ess+gtW++l   +d ++++++ a  + ++  gd   ++
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY   5 TYEDFLDLSYTPTETDLVCTFRIAPADGMSMEAAASRVASESSNGTWAAL--HID-DTFTDMGATTFAID--GD---TI 75 
+                                     79************************************************..444.67778888777765..67...79 PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     k+ayp+ lfe g++pq+l++iaGni+gmkav+++rled+e+P++++  ++GP++G+ +  ei+g++drP+l+tvpkPkv
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY  76 KVAYPAGLFEAGNMPQVLSCIAGNIMGMKAVDTIRLEDCEWPEAIVSGYRGPQFGSGVRSEIFGVEDRPILATVPKPKV 154
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+st ++++v ye+++gGvdl+kddenlt+q fn f++r+++ l+++dk+++etGe k+yl+n+ta+++em  r++ va
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY 155 GLSTAKHAEVGYEAWVGGVDLLKDDENLTDQPFNPFSDRLTESLAMRDKAQDETGEVKSYLVNVTAETNEMLERADEVA 233
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                      +Gn+yvmvdvv++Gw+a+q++re++e+++laihahramhaaf+r p+hG+sm vla++ rl Gvdqlh+Gtag+Gkl+
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY 234 SQGNEYVMVDVVTCGWAAVQTLRERCEELGLAIHAHRAMHAAFDRLPDHGVSMRVLAQVSRLCGVDQLHTGTAGLGKLA 312
+                                     ******************************************************************************9 PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e++v i+++              l++dl+++ +vlP+asGGlhPgl+p+++++ G+++ +qvGGG++ghP+GtraG
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY 313 --NEDTVGINEW--------------LRSDLYGMTDVLPTASGGLHPGLVPALMDATGTNMCIQVGGGIHGHPEGTRAG 375
+                                     ..899*****99..............999************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     a+a rqav+a++ g+++de+a +h+el++alekwg+++p
+  tr|A0A1G9R9U4|A0A1G9R9U4_9EURY 376 AAAFRQAVDATVAGVPMDEYAADHAELATALEKWGTETP 414
+                                     ***********************************9987 PP
+
+>> tr|I7CQ19|I7CQ19_NATSJ  Ribulose bisphosphate carboxylase OS=Natrinema sp. (strain J7-2) OX=406552 GN=rbcL PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  579.6   0.1  3.7e-177  6.3e-172       5     439 ..       9     420 ..       5     421 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 579.6 bits;  conditional E-value: 3.7e-177
+  rubisco_form_III_alignment   5 eiyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyivkia 87 
+                                  +y+d++d +yeP  ++l+++f++ePa+G+s+e aa+rva+ess+gtW++l   +d++ +++l a +  ++       +v++a
+      tr|I7CQ19|I7CQ19_NATSJ   9 IEYDDFLDLGYEPAGTELVCEFTIEPAAGMSMEAAASRVASESSNGTWAAL--HVDEDELTDLGAVACGID-----GRTVTVA 84 
+                                 579************************************************..788899999998877664.....3579*** PP
+
+  rubisco_form_III_alignment  88 yplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkvGysteev 170
+                                 yp+ lfe gs+pqll++iaGni+gmkav+++rled+ +P+++   f+GP++G  + re l+  +rP+l+tvpkPkvG+st+ +
+      tr|I7CQ19|I7CQ19_NATSJ  85 YPTALFEAGSMPQLLSCIAGNILGMKAVDSIRLEDCDWPESITSGFPGPQFGPSVAREKLDAGERPVLATVPKPKVGLSTDAH 167
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 171 ekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmvdv 253
+                                 +++ +e+++gGvdl+kddenlt+q+fn f +r+++ l+++d++++etGerk+yl+n+ta+++em  r++lva++G+ +vmvdv
+      tr|I7CQ19|I7CQ19_NATSJ 168 ARIGEEAWRGGVDLLKDDENLTDQAFNPFADRLAESLAARDRAQEETGERKDYLVNVTAETTEMLERVDLVAEHGGGFVMVDV 250
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 254 vvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadilre 336
+                                 +++Gw+a+q++re++ed++laihahramhaaf+r  +hG+sm v+a++arl Gvd++h+Gtag+Gkl+  +e++  i+++   
+      tr|I7CQ19|I7CQ19_NATSJ 251 ITCGWAAVQSVRERCEDHGLAIHAHRAMHAAFDRLDHHGVSMRVIAQIARLCGVDHIHTGTAGLGKLA--NEDTPGINEW--- 328
+                                 *******************************************************************9..8899999999... PP
+
+  rubisco_form_III_alignment 337 kkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegislde 419
+                                            l++d ++++pvlPvasGGlhPg+++++i++lG+d+++q+GGG++ghPdGt+aGaka+rq+vea++ g++l+ 
+      tr|I7CQ19|I7CQ19_NATSJ 329 -----------LTSDCHGLRPVLPVASGGLHPGVVDQLIDALGTDIIVQAGGGIHGHPDGTHAGAKALRQSVEASMAGTDLET 400
+                                 ...........99********************************************************************** PP
+
+  rubisco_form_III_alignment 420 kakehkelkkalekwgevkp 439
+                                 +a +h+el++alekwg ++p
+      tr|I7CQ19|I7CQ19_NATSJ 401 YADDHAELATALEKWGAETP 420
+                                 ****************9887 PP
+
+>> tr|A0A1H6ASK2|A0A1H6ASK2_9EURY  Ribulose bisphosphate carboxylase OS=Halobellus limi OX=699433 GN=rbcL PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  575.7   0.0  5.9e-176    1e-170       6     439 ..       5     427 ..       1     428 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 575.7 bits;  conditional E-value: 5.9e-176
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdl.gdgs.. 81 
+                                     +y+d++d s+eP++ dl+++fr+ Pa+G+ +e aa+rva+ess+gtW++l +      +++++ ++ e++d  g+g+  
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY   5 TYEDFIDLSFEPSDADLVCTFRIDPADGMGVESAASRVASESSNGTWAALPTGEGFTDMRAMAFEIGEIDDDsGTGAtt 83 
+                                     79************************************************55555555555666666665431444366 PP
+
+      rubisco_form_III_alignment  82 ..yivkiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtv 158
+                                         +k+ayp+ lfe gs+pq+l++iaGni+gmkav+++rl d+e+P+ l  +f+GP++G+ + rei+g+ drP+l+tv
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY  84 daAEIKVAYPEGLFEPGSMPQILSCIAGNIMGMKAVDTIRLVDCEWPEGLATSFSGPQFGSSVRREIFGVDDRPILATV 162
+                                     6688*************************************************************************** PP
+
+      rubisco_form_III_alignment 159 pkPkvGysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerr 237
+                                     pkPkvG+ste +++v ye+++gGvdl+kddenlt+q+fn f +r+ + l+ +d++e+etGe k+yl+n+ta ++em  r
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY 163 PKPKVGLSTERHAEVGYEAWTGGVDLLKDDENLTDQEFNPFHDRLVESLAERDRAEDETGEPKSYLINVTAGTNEMLER 241
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 238 lklvadlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtag 316
+                                     ++ va +G +yvmvdvv++Gw+a+q++re++e+++laihahramhaaf+r p+hG+sm vla++arl+Gvdqlh+Gtag
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY 242 VDQVAAEGCEYVMVDVVTTGWAAVQTVRERCEELGLAIHAHRAMHAAFDRLPEHGVSMRVLAQVARLVGVDQLHTGTAG 320
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 317 vGklegkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPd 395
+                                     +Gkl+  +e++v i+ +              l++dl+++ +vlPvasGGlhPgl+p+++++ G+++ +q+GGG++ghPd
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY 321 LGKLA--NEDTVGINAW--------------LRDDLHGLDDVLPVASGGLHPGLVPDLLDATGTNVCVQAGGGIHGHPD 383
+                                     ****9..8999**9999..............999********************************************* PP
+
+      rubisco_form_III_alignment 396 GtraGakavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     Gt+ Gaka+r+av+a+ e  sl++ka+e+++l++a+++wg+++p
+  tr|A0A1H6ASK2|A0A1H6ASK2_9EURY 384 GTHEGAKALRAAVDAYAEDRSLESKAEESPALRAAIDEWGTETP 427
+                                     ****************************************9987 PP
+
+>> tr|A0A1G9TUU1|A0A1G9TUU1_9EURY  Ribulose bisphosphate carboxylase OS=Haloarchaeobius iranensis OX=996166 GN=rbcL PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  572.2   0.8  6.6e-175  1.1e-169       6     439 ..       5     421 ..       1     422 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 572.2 bits;  conditional E-value: 6.6e-175
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +y+d++d +yeP  +dl+++f + Pa+ +s+e aa+rva+es++gtW++l   +d+  +++l+a + ++++ +     v
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY   5 EYDDFLDLDYEPTGTDLVCEFSIAPASDMSMEAAASRVASESANGTWAAL--HVDEAELTDLSAVACDIRENAGPGGNV 81 
+                                     79************************************************..78999999*********99998899** PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp++lfe+gs++q+l++iaGni+gmkav+++rled+++P++l++ f+GP++G+ + +e l+  drP+l+tvpkPkv
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY  82 TVAYPTDLFEDGSMAQILSCIAGNIMGMKAVDSIRLEDCKWPETLVEGFPGPQFGTAVAHEKLDAGDRPVLATVPKPKV 160
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+st+ + ++a+++++gGvdl+kddenlt+q fn fe+rv++ l v+  + +etGe+k+yl+nita+++em+rr+++va
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY 161 GLSTDAHVDIAEQAWRGGVDLLKDDENLTDQYFNPFEDRVERSLSVARELTEETGEKKDYLVNITAETDEMVRRAEFVA 239
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     d+G+ ++mvdvv+aGwsa+q++r++ae +dlaihahramhaaf+r  +hG+sm +la++arl Gvd++h+Gtag+Gkle
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY 240 DQGGGFIMVDVVTAGWSAVQTVRDVAEKHDLAIHAHRAMHAAFDRMDHHGVSMRTLAQVARLCGVDHIHTGTAGLGKLE 318
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e++  i+ +              l++dl++  +vlPvasGGlhPg+++++i++lG+d+ +q+GGG++ghPdGt+aG
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY 319 --NEDTPGINAW--------------LKSDLYGTTDVLPVASGGLHPGVIDALIDALGTDIAIQAGGGIHGHPDGTEAG 381
+                                     ..8899999988..............99*************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekake.hkelkkalekwgevkp 439
+                                     a+a+rq+vea+++g++l ++a   ++el++al+kwg ++p
+  tr|A0A1G9TUU1|A0A1G9TUU1_9EURY 382 ARALRQSVEASMQGVPLRDHADAgNPELAAALDKWGAETP 421
+                                     *********************86379**********9887 PP
+
+>> tr|A0A1I6GN90|A0A1I6GN90_9EURY  Ribulose bisphosphate carboxylase OS=Halogeometricum rufum OX=553469 GN=rbcL PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  571.9   0.0  8.6e-175  1.5e-169       6     439 ..       5     419 ..       1     420 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 571.9 bits;  conditional E-value: 8.6e-175
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +y+d++d syePd++dl+++fr+ PaeG+  e aa+rva+ess+gtW++l +    e ++++ a ++ ++   d +  v
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY   5 TYEDFLDLSYEPDESDLVCTFRIAPAEGMDAEAAASRVASESSNGTWAAL-P--TGEGFTDMGATAFAIRGDDD-DAEV 79 
+                                     79************************************************.4..456899999*****998887.589* PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgik.drPllgtvpkPk 162
+                                      +ayp+ lfe g++pq+l++iaGni+gmkav+++rl+d+e+P++ +++f GP++G+ +  ei+gi+ drP+l+tvpkPk
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY  80 DVAYPAGLFEPGNMPQILSCIAGNIMGMKAVDTIRLLDCEWPEATVEAFAGPQFGSSVREEIFGIEgDRPILATVPKPK 158
+                                     *****************************************************************769*********** PP
+
+      rubisco_form_III_alignment 163 vGysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklv 241
+                                     vG+ste +++v ye+++gGvdl+kddenlt+q+fn + +r+ + l  +d +e+etGe+k+yl+n+tad++ m  r++l+
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY 159 VGLSTERHAEVGYEAWVGGVDLLKDDENLTDQSFNPYHDRLVESLSFRDDAEDETGETKSYLINVTADTNTMLERVDLA 237
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 242 adlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkl 320
+                                     a++G +yvmvdv+++Gw+a+q++re++ed+++aihahramhaaf+r p+hG+sm vla++arl Gvdqlh+Gtag+Gkl
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY 238 AEEGCEYVMVDVITTGWGAVQTVRERCEDHGIAIHAHRAMHAAFDRLPDHGVSMRVLAQIARLCGVDQLHTGTAGLGKL 316
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 321 egkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtra 399
+                                     +  +e++v i+d+              l++dl++  +vlPvasGGlhPgl+p+++++ G+++ +q+GGG++ghPdGtra
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY 317 A--NEDTVGINDW--------------LRSDLYGTTDVLPVASGGLHPGLVPDLLDATGTNVCVQAGGGIHGHPDGTRA 379
+                                     9..89********..............9999************************************************ PP
+
+      rubisco_form_III_alignment 400 Gakavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     Ga+a+r+av+ +  g+sl+  a++++el++a+e+wg+++p
+  tr|A0A1I6GN90|A0A1I6GN90_9EURY 380 GAAALRAAVDGYAAGKSLEAAAEDSPELAAAVEEWGTETP 419
+                                     ************************************9987 PP
+
+>> tr|E4NPX6|E4NPX6_HALBP  Ribulose bisphosphate carboxylase OS=Halogeometricum borinquense (strain ATCC 700274 / DSM 11
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  571.2   0.0  1.3e-174  2.3e-169       6     439 ..       5     419 ..       1     420 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 571.2 bits;  conditional E-value: 1.3e-174
+  rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyivkiay 88 
+                                 +y+d++d syePd++dl+++fr+ PaeG+ +e aa+rva+ess+gtW++l +    e ++++ a  ++++   d s  v +ay
+      tr|E4NPX6|E4NPX6_HALBP   5 TYEDFLDLSYEPDESDLVCTFRIAPAEGMDVEAAASRVASESSNGTWAAL-P--TGEGFTDMGATTFDIRGSDD-SAEVDVAY 83 
+                                 79************************************************.4..456899999*****998776.89****** PP
+
+  rubisco_form_III_alignment  89 plelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgik.drPllgtvpkPkvGysteev 170
+                                 p+ lfe gs+pq+l++iaGni+gmkav+++rl d+++P++l+ +f GP++G+ +  ei+gi+ drP+l+tvpkPkvG+st+ +
+      tr|E4NPX6|E4NPX6_HALBP  84 PAGLFEPGSMPQILSCIAGNIMGMKAVDTIRLADCQWPEALVSSFAGPQFGSSVREEIFGIEeDRPILATVPKPKVGLSTDRH 166
+                                 *************************************************************648******************* PP
+
+  rubisco_form_III_alignment 171 ekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmvdv 253
+                                 ++v ye++ gGvdl+kddenlt+q+fn + +r+ + l+++d +e+etGe+k+yl+n+tad++ m  r++l+a++G +yvmvdv
+      tr|E4NPX6|E4NPX6_HALBP 167 AEVGYEAWLGGVDLLKDDENLTDQSFNPYHDRLVESLALRDDAEDETGEKKSYLINVTADTNTMLERVDLAAEEGCEYVMVDV 249
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 254 vvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadilre 336
+                                 +++Gw+a+q++re++ed+++aihahramhaaf+r  +hG+sm vla++ rl Gvdqlh+Gtag+Gkl+  +e++v i+d+   
+      tr|E4NPX6|E4NPX6_HALBP 250 ITTGWAAVQTVRERCEDHGIAIHAHRAMHAAFDRLENHGVSMRVLAQISRLCGVDQLHTGTAGLGKLA--NEDTVGINDW--- 327
+                                 *******************************************************************9..89********... PP
+
+  rubisco_form_III_alignment 337 kkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegislde 419
+                                            ++++l+++++vlPvasGGlhPgl+p+++++ G+++ +q+GGG++ghPdGtraGa+a+r+av+ +  g+sl+e
+      tr|E4NPX6|E4NPX6_HALBP 328 -----------MRSELYGLNDVLPVASGGLHPGLIPDLLDATGTNVCVQAGGGIHGHPDGTRAGAAALRAAVDGYAAGKSLEE 399
+                                 ...........8999******************************************************************** PP
+
+  rubisco_form_III_alignment 420 kakehkelkkalekwgevkp 439
+                                  a +++el++a+++wg+++p
+      tr|E4NPX6|E4NPX6_HALBP 400 SADDSPELATAIDEWGTETP 419
+                                 ****************9987 PP
+
+>> tr|M0HKI1|M0HKI1_9EURY  Ribulose bisphosphate carboxylase OS=Haloferax larsenii JCM 13917 OX=1227460 GN=rbcL PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  568.5   0.0  9.2e-174  1.6e-168       6     439 ..       4     413 ..       1     414 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 568.5 bits;  conditional E-value: 9.2e-174
+  rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyivkiay 88 
+                                 +y+d++d +yeP ++dl+++fr+ Pa G++ e+aa+rva+ess+gtW++l++  d   ++++ a +++++  gd   ++ +ay
+      tr|M0HKI1|M0HKI1_9EURY   4 TYEDFLDLDYEPTDEDLVCTFRIDPATGMTTEEAASRVASESSNGTWAALQTGAD---FTDMGATAFSID--GD---TIGVAY 78 
+                                 79************************************************54444...777888888876..66...688*** PP
+
+  rubisco_form_III_alignment  89 plelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkvGysteeve 171
+                                 p+ lfe g++pq+l++iaGni+gmkav+++rl d+e+P++++ +f+GP +G+ +  ei+g+ drP+++tvpkPkvG+st  ++
+      tr|M0HKI1|M0HKI1_9EURY  79 PAGLFEPGNMPQILSCIAGNIMGMKAVDTIRLMDCEWPESIVSSFDGPLFGSSVREEIFGVDDRPITATVPKPKVGLSTKSHA 161
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 172 kvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmvdvv 254
+                                 +v y+++ gGvdl+kddenlt+q fn f +r+++ l+++d +e+etGe+k+yl+n+tad++ m  r++ va++G++yvmvd++
+      tr|M0HKI1|M0HKI1_9EURY 162 QVGYDAWLGGVDLLKDDENLTDQDFNPFADRLTESLALRDDAEDETGEKKSYLINVTADTQTMLDRVDEVAEQGGEYVMVDII 244
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 255 vaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadilrek 337
+                                 +aGw++lq++re++e +++aihahramhaaf+r p+hG+sm vla++ rl+Gvdqlh+Gtag+Gkl+  +e++v i+++    
+      tr|M0HKI1|M0HKI1_9EURY 245 TAGWAGLQTVRERTEKHGMAIHAHRAMHAAFDRMPTHGVSMRVLAQISRLLGVDQLHTGTAGLGKLA--NEDTVGINEW---- 321
+                                 ******************************************************************9..899******9.... PP
+
+  rubisco_form_III_alignment 338 kykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegisldek 420
+                                           +++dl++  +vlPvasGGlhPgllp+++++ G+++ +q+GGG++ghPdGtraGa a+r+a++ +++g+s++e 
+      tr|M0HKI1|M0HKI1_9EURY 322 ----------MRSDLYGTTDVLPVASGGLHPGLLPDLLDATGTNVCVQLGGGIHGHPDGTRAGAVALRAAIDGYVDGKSIQEV 394
+                                 ..........8999********************************************************************* PP
+
+  rubisco_form_III_alignment 421 akehkelkkalekwgevkp 439
+                                 a e++el+ al+kwg+++p
+      tr|M0HKI1|M0HKI1_9EURY 395 ADETPELAVALDKWGTETP 413
+                                 ***************9987 PP
+
+>> tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY  Ribulose bisphosphate carboxylase OS=Halobellus clavatus OX=660517 GN=rbcL PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  566.6   0.1  3.4e-173  5.7e-168       6     439 ..       5     424 ..       1     425 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 566.6 bits;  conditional E-value: 3.4e-173
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgs... 81 
+                                     +y+d++d sy P   dl+++fr+ePa+G+++e+aa+rva+ess+gtW++l ++   e ++++ a ++ + d   g+   
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY   5 TYEDFIDLSYDPAAADLVCTFRIEPAAGMTVEEAASRVASESSNGTWAAL-PT--GEGFTDMGATAFAIGDDESGAads 80 
+                                     79************************************************.44..456777888888877665555445 PP
+
+      rubisco_form_III_alignment  82 ..yivkiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtv 158
+                                       + +k+ayp+ lfe gs+pq+l++iaGni+gmkav+++rl d+e+P+ l  +f+GP++G+++  ei+g++drP+l+tv
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY  81 agTEIKVAYPEGLFEPGSMPQILSCIAGNIMGMKAVDSIRLADCEWPEGLTTSFPGPQFGSDVREEIFGVADRPILATV 159
+                                     6689*************************************************************************** PP
+
+      rubisco_form_III_alignment 159 pkPkvGysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerr 237
+                                     pkPkvG+ste +++v ye+++gGvdl+kddenlt+q+fn f +r+ + l+ +d++ +etGe k+yl+n+ta ++em  r
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY 160 PKPKVGLSTETHAEVGYEAWTGGVDLLKDDENLTDQAFNPFHDRLVESLAQRDRAAEETGEPKSYLINVTAGTNEMLER 238
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 238 lklvadlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtag 316
+                                     ++ va +G +yvmvdv+++Gw+a+q++re++e+++laihahramhaaf+r ++hG+sm vla++arl+Gvdqlh+Gt+g
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY 239 VDQVASEGCEYVMVDVITTGWAAVQTVRERCEELGLAIHAHRAMHAAFDRLSHHGVSMRVLAQIARLVGVDQLHTGTVG 317
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 317 vGklegkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPd 395
+                                     +Gkl+  +e++v i+ +              l++d +++++vlPvasGGlhPgl+p+++++ G+++ +q+GGG++ghP 
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY 318 LGKLA--NEDTVGINAW--------------LRDDHYGLNDVLPVASGGLHPGLVPDLLDATGTNVCVQAGGGIHGHPH 380
+                                     ****9..899****999..............677778999*************************************** PP
+
+      rubisco_form_III_alignment 396 GtraGakavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     Gt+ Gaka+r+av+a+  g sl+ ka+e+++l++a+++wg+++p
+  tr|A0A1H3IQJ6|A0A1H3IQJ6_9EURY 381 GTHEGAKALRAAVDAYAAGRSLEAKAEESPALATAIDEWGTETP 424
+                                     ****************************************9987 PP
+
+>> tr|A0A1Q1FF31|A0A1Q1FF31_9EURY  Ribulose bisphosphate carboxylase OS=Halorientalis sp. IM1011 OX=1932360 GN=rbcL PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  566.7   0.0  3.2e-173  5.5e-168       6     439 ..       5     414 ..       2     415 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 566.7 bits;  conditional E-value: 3.2e-173
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                      y+d++d +yeP ++dli++f vePa+ + ++daagrva+ess+gtW++l     +  +++l+a +  ++d       v
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY   5 NYEDFLDLGYEPRDSDLICTFAVEPASDMDMDDAAGRVASESSNGTWAEL---QVEGSITDLSATACAIDDN-----RV 75 
+                                     699***********************************************...3446789999999998874.....68 PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp  lfe+g+++q+l++iaGni+gmkav+ +rl+d+ +P+ l  +f+GP++G+ +  ei++  drP+++tvpkPkv
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY  76 TVAYPDALFEDGNMAQVLSCIAGNIMGMKAVERIRLLDCDWPEPLATSFPGPQFGTGVREEIFDAGDRPITATVPKPKV 154
+                                     9****************************************************************************** PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+st++++++ ye+++gG+dl+kddenltsq fn f +r+++ l+ +d++e+etGerk+yl+n+tad+r m  r+++va
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY 155 GLSTDQHAQIGYEAWTGGLDLLKDDENLTSQDFNPFGDRLTESLAQRDRAEDETGERKSYLVNVTADTRRMLERVDMVA 233
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     ++G++yvmvdvv++Gw+a+q +re++e+++laihahramhaaf+r p+hG+sm v+a++arl G dqlh+Gta++Gkle
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY 234 EHGGEYVMVDVVTCGWAAVQRVRERCEEHGLAIHAHRAMHAAFDRIPDHGVSMRVIAQVARLCGADQLHTGTADLGKLE 312
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e+++ i+++              l +dl+++++vlPvasGGlhPgl+pe+i+ +G+++ +q+GGGv+ghPdGt+aG
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY 313 --NEDTTGINEW--------------LYSDLYGLHDVLPVASGGLHPGLVPELIDRVGTNVCVQAGGGVHGHPDGTHAG 375
+                                     ..8999999999..............999************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     aka+r+av+a+ +g+++++ka++++el++a+e wg+++p
+  tr|A0A1Q1FF31|A0A1Q1FF31_9EURY 376 AKALRAAVDAAASGENIESKAEDVPELATAIEMWGTETP 414
+                                     ***********************************9987 PP
+
+>> tr|D4GV77|D4GV77_HALVD  Ribulose bisphosphate carboxylase OS=Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  565.8   0.0  5.8e-173  9.9e-168       6     439 ..       4     413 ..       1     414 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 565.8 bits;  conditional E-value: 5.8e-173
+  rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyivkiay 88 
+                                 +y+d++d +yeP ++dl+++fr+ Pa G+s e aa+rva+ess+gtW++l++  d   ++++ a  ++    gd   ++++ay
+      tr|D4GV77|D4GV77_HALVD   4 TYEDFLDLDYEPTDEDLVCTFRIDPATGMSTEAAASRVASESSNGTWAALQTGAD---FTDMGATTFD--IDGD---LIRVAY 78 
+                                 79************************************************44444...5555555555..5688...9***** PP
+
+  rubisco_form_III_alignment  89 plelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkvGysteeve 171
+                                 p+ lfe g++pq+l++iaGni+gmkav+++rl+d+e+P++++ +++GP +G+ +  ei+g++drP+++tvpkPkvG+st  ++
+      tr|D4GV77|D4GV77_HALVD  79 PAGLFEPGNMPQVLSCIAGNIMGMKAVDTIRLLDCEWPESVVSAYPGPLYGSSVREEIFGVTDRPITATVPKPKVGLSTAAHA 161
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 172 kvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmvdvv 254
+                                 +v y++++gGvdl+kddenlt+q+fn f++r+++ l ++d +e+etGe+k+yl+n+tad++ m  r++ va +G++yvmvd++
+      tr|D4GV77|D4GV77_HALVD 162 QVGYDAWVGGVDLLKDDENLTDQAFNPFSDRLTESLSLRDDAEDETGEKKSYLINVTADTQTMLDRVDEVAAQGGEYVMVDII 244
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 255 vaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadilrek 337
+                                 +aGw++lq++re++e ++laihahramhaaf+r p hG+sm vla++ rl Gvdqlh+Gtag+Gkl+  +e++v i+++    
+      tr|D4GV77|D4GV77_HALVD 245 TAGWAGLQTVRERTEKHGLAIHAHRAMHAAFDRLPAHGVSMRVLAQVSRLCGVDQLHTGTAGLGKLA--NEDTVGINEW---- 321
+                                 ******************************************************************9..899*****99.... PP
+
+  rubisco_form_III_alignment 338 kykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegisldek 420
+                                           l+ dl++  +vlPvasGGlhPgllp+++++ G+++ +q+GGG++ghPdGtraGa a+r a++a++eg  + e 
+      tr|D4GV77|D4GV77_HALVD 322 ----------LAGDLHGATDVLPVASGGLHPGLLPDLLDATGTNVCVQLGGGIHGHPDGTRAGAVALRSAIDAYVEGRAITEA 394
+                                 ..........999********************************************************************** PP
+
+  rubisco_form_III_alignment 421 akehkelkkalekwgevkp 439
+                                 a+e++el+ al+kwg+++p
+      tr|D4GV77|D4GV77_HALVD 395 AEETPELAVALDKWGTETP 413
+                                 ***************9987 PP
+
+>> tr|A0A0W1RZF9|A0A0W1RZF9_9EURY  Ribulose bisphosphate carboxylase OS=Haloferax sp. SB29 OX=1544718 GN=rbcL PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  564.9   0.0  1.1e-172  1.9e-167       6     439 ..       4     413 ..       1     414 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 564.9 bits;  conditional E-value: 1.1e-172
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +y+d++d +yeP+ ++l+++fr+ Pa G++ e aa+rva+ess+gtW++l      e ++++ a +++++  gd   i+
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY   4 TYEDFLDLDYEPSAEELVCTFRIDPATGMTPEAAASRVASESSNGTWAAL---QTGEDFTDMGATAFSID--GD---II 74 
+                                     79************************************************...34456888888888875..77...9* PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     k+ayp+ lfe g++pq+l++iaGni+gmkav+++rl d+e+P++++ +++GP +G+ +  ei+g++drP ++tvpkPkv
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY  75 KVAYPAGLFEPGNMPQVLSCIAGNIMGMKAVDTIRLMDCEWPESIVSSYPGPLFGSSVREEIFGVTDRPTTATVPKPKV 153
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+st  +++v y++++gGvdl+kddenlt+q+fn f +r+++ l ++d +e+etGe+k+yl+n+t+d++ m  r++ va
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY 154 GLSTKAHAQVGYDAWVGGVDLLKDDENLTDQEFNPFTDRLTESLSLRDDAEDETGETKSYLINVTGDTQTMLDRVDEVA 232
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                      +G++yvmvd+v+aGw++lq++re++e +++aihahramhaaf+r p+hG+sm vla++ rl Gvdqlh+Gtag+Gkl+
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY 233 AQGGEYVMVDIVTAGWAGLQTVRERTEKHGIAIHAHRAMHAAFDRMPTHGVSMRVLAQVSRLCGVDQLHTGTAGLGKLA 311
+                                     ******************************************************************************9 PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e++v i+++              +++dl+++ +vlPvasGGlhPgllp+++++ G+++ +q+GGG++ghPdGtraG
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY 312 --NEDTVGINEW--------------MRSDLYGMTDVLPVASGGLHPGLLPDLLDATGTNVCVQLGGGIHGHPDGTRAG 374
+                                     ..899******9..............8999************************************************* PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     a a+r+a++a+++g+++ e a+e++el+ al+kwg+++p
+  tr|A0A0W1RZF9|A0A0W1RZF9_9EURY 375 AVALRAAIDAYVDGKPITEAAEETPELAVALDKWGTETP 413
+                                     ***********************************9987 PP
+
+>> tr|A0A1G8VBG1|A0A1G8VBG1_9EURY  Ribulose bisphosphate carboxylase OS=Halovenus aranensis OX=890420 GN=rbcL PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  562.7   0.0    5e-172  8.5e-167       6     439 ..       4     415 ..       1     416 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 562.7 bits;  conditional E-value: 5e-172
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                     +y+d++d +y P +ddl+++f++ePa+ +  e aa+rva+ess+gtW++l     +  v++l+a ++++++ +     +
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY   4 TYEDFLDLEYDPLDDDLVCEFYIEPADRMDWEAAASRVASESSNGTWAEL---QVEGSVRDLSATAFSIDEEAG---HI 76 
+                                     79************************************************...345789**********98876...7* PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp  lfe gs+pq+l++iaGni+gmkav+ +rl+d+e+P +l+++f+GP++G+ +  eil+  drP ++tvpkPkv
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY  77 EVAYPDALFEPGSMPQVLSCIAGNIMGMKAVDRIRLLDCEWPVTLVESFPGPQYGSAVKSEILDAGDRPATATVPKPKV 155
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G++t++++ v ye+++gGvdl+kddenlt+q+fn fe+r+++ l+ +d++e+etGe+k+yl n+ta+ +em  r++++a
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY 156 GLTTDQHATVGYEAWTGGVDLLKDDENLTDQSFNPFEDRLTESLAQRDRAEDETGETKSYLLNVTAPGSEMLERVDMAA 234
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     ++G ++vmvdvv++Gw+a+q++re++e ++laihahramhaaf+r p+hG+sm v+a++arl Gvd++h+Gtag+Gkle
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY 235 EHGCEFVMVDVVTTGWAAVQQVRERCERHGLAIHAHRAMHAAFDRVPDHGVSMRVIAQIARLCGVDHIHTGTAGLGKLE 313
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e++  i+d+              l+ + +++ +vlPvasGGlhPgll+++++ lG ++ +q+GGG++ghPdGt+aG
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY 314 --NEDTEGINDW--------------LQGECHGLTDVLPVASGGLHPGLLDQLLDELGANIAVQAGGGIHGHPDGTHAG 376
+                                     ..7899999999..............999************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     a a r+av+a+ +g s+++ a + +el++alekwg+++p
+  tr|A0A1G8VBG1|A0A1G8VBG1_9EURY 377 AIAFRHAVDAAAQGHSVEDAATDCPELERALEKWGTETP 415
+                                     ***********************************9987 PP
+
+>> tr|A0A1G7MZT7|A0A1G7MZT7_9EURY  Ribulose bisphosphate carboxylase OS=Halorientalis regularis OX=660518 GN=rbcL PE=3 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  553.2   0.1  3.9e-169  6.7e-164       6     439 ..       5     414 ..       2     415 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 553.2 bits;  conditional E-value: 3.9e-169
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgsyiv 84 
+                                      y+d++d +yeP +++l+++f ve a+ + ++daagrva+ess+gtW++l     +  +++l+a +  ++  g+    v
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY   5 NYEDFLDLDYEPRDSELVCTFAVEVASDMDMADAAGRVASESSNGTWAEL---QVEGSITDLSATACAID--GN---RV 75 
+                                     699***********************************************...33467889999988875..44...79 PP
+
+      rubisco_form_III_alignment  85 kiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkv 163
+                                     ++ayp  lfeeg+++q+l++iaGni+gmkav+ +rl+d+e+P+ l  +f+GP++G+ +  ei++  drP+++tvpkPk+
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY  76 TVAYPDALFEEGNMAQVLSCIAGNILGMKAVERIRLLDCEWPEPLATSFPGPQFGTGVREEIFDAGDRPITATVPKPKI 154
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 164 GysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklva 242
+                                     G+st +++++ ye+++gG+dl+kddenlt+q+fn f +r+++ l+ +d++e+etGe+k+yl+n+tad+r m  r+++va
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY 155 GLSTGQHAQIGYEAWTGGLDLLKDDENLTDQAFNPFADRLTESLAQRDRAEDETGETKSYLVNVTADTRRMLERVDMVA 233
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 243 dlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGkle 321
+                                     ++G++yvmvdvv++Gwsa+q +re++++++laihahramhaaf+r p+hG+sm v+a+++rl G dqlh+Gta++Gkle
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY 234 EHGGEYVMVDVVTCGWSAVQRVRERCAEHGLAIHAHRAMHAAFDRVPDHGVSMRVIAQVTRLCGADQLHTGTADLGKLE 312
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 322 gkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraG 400
+                                       +e+ + i+++              l +dl+++++vlPvasGGlhPgl+pe+i+ lG +l +q+GGGv+ghPdGt+aG
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY 313 --NEDSAGINEW--------------LYSDLHGLNDVLPVASGGLHPGLVPELIDRLGSNLCVQAGGGVHGHPDGTHAG 375
+                                     ..8899999999..............99*************************************************** PP
+
+      rubisco_form_III_alignment 401 akavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     aka+r+av+a+  g+++  ka+ ++el++a+ekwg+++p
+  tr|A0A1G7MZT7|A0A1G7MZT7_9EURY 376 AKALRAAVDAAAAGEDIGAKAEAVPELATAIEKWGTETP 414
+                                     ***********************************9987 PP
+
+>> tr|C7P079|C7P079_HALMD  Ribulose bisphosphate carboxylase OS=Halomicrobium mukohataei (strain ATCC 700874 / DSM 12286
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  547.6   0.0    2e-167  3.4e-162       6     439 ..       5     422 ..       1     423 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 547.6 bits;  conditional E-value: 2e-167
+  rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgs...yivk 85 
+                                 +y+d++d sy P ++dl+++f+vePa+    e aa+rva+ess+gtW++l+       v++l+a +  +++ + g+   y v+
+      tr|C7P079|C7P079_HALMD   5 TYEDFLDLSYDPADSDLVCEFYVEPAADQDAESAASRVASESSNGTWAELQVD---GGVTDLSATACGIEAATAGDregYRVT 84 
+                                 79************************************************444...455666666666665554444459*** PP
+
+  rubisco_form_III_alignment  86 iayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrPllgtvpkPkvGyste 168
+                                 +ayp  lfe g++pq+l++iaGni+gmkav+ +rl+d+++P+ l  +f GP++G+ +  ei++  drP+++tvpkPkvG+st+
+      tr|C7P079|C7P079_HALMD  85 VAYPDALFEGGNMPQILSCIAGNILGMKAVDRIRLLDCTWPEPLATSFAGPQFGTSVRSEIFDADDRPITATVPKPKVGLSTD 167
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 169 evekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvremerrlklvadlGnkyvmv 251
+                                 +++++ ye+++gG+dl+kddenlt+q+fn fe+r+++ l+ +d++ +etGe k+yl n+ta  +em  r++++a++G +yvmv
+      tr|C7P079|C7P079_HALMD 168 QHAQIGYEAWTGGLDLLKDDENLTDQAFNPFEDRLTESLAQRDRAVEETGEPKSYLLNVTAGGTEMLERVDMAAEHGCEYVMV 250
+                                 *********************************************************************************** PP
+
+  rubisco_form_III_alignment 252 dvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlhiGtagvGklegkkeevvriadil 334
+                                 dvv++Gw+a+q++re++e ++laihahramhaaf+r p+hG+sm v+a++arl Gvdq+h+Gta++Gkl+  +e++v i+++ 
+      tr|C7P079|C7P079_HALMD 251 DVVTCGWAAVQQVRERCERHGLAIHAHRAMHAAFDRLPSHGVSMRVIAQIARLCGVDQIHTGTADLGKLA--NEDTVGINEW- 330
+                                 *********************************************************************9..899*****99. PP
+
+  rubisco_form_III_alignment 335 rekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGvlghPdGtraGakavrqaveailegisl 417
+                                              l++dl+++ +vlP+asGGlhPgl+pe+++  G+++ +q+GGGv+ghPdGt+ Gaka+r+avea+ eg s+
+      tr|C7P079|C7P079_HALMD 331 -------------LTSDLYGLDDVLPMASGGLHPGLVPELVDRCGTNIGIQAGGGVHGHPDGTHEGAKALRAAVEAAAEGRSI 400
+                                 .............999******************************************************************* PP
+
+  rubisco_form_III_alignment 418 dekakehkelkkalekwgevkp 439
+                                 +  a + ++l++al+kwg+++p
+      tr|C7P079|C7P079_HALMD 401 EAAADDEPALATALDKWGTETP 422
+                                 ******************9987 PP
+
+>> tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY  Ribulose bisphosphate carboxylase OS=Halopenitus persicus OX=1048396 GN=rbcL PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  547.4   0.0  2.2e-167  3.7e-162       6     439 ..       5     429 ..       1     430 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 547.4 bits;  conditional E-value: 2.2e-167
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgs... 81 
+                                     +y+d++d+syeP  ddl++ f+vePa+ +  e aa+rva+ess+gtW++l+    +  v++l+a +++++ ++ g    
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY   5 TYEDFLDRSYEPTADDLVCRFYVEPAADMDAEAAASRVASESSNGTWAALQ---VEGSVTDLSATAFDVEPTSVGGdtp 80 
+                                     79************************************************3...3456888888888887665443446 PP
+
+      rubisco_form_III_alignment  82 .......yivkiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrP 153
+                                            y v +ayp+ lfe gs+pq+l++iaGni+gmkav+ +rl+d+e+P+ l  +f+GP++G+ +   +++  drP
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY  81 gtdrregYDVGVAYPMALFEPGSMPQVLSCIAGNILGMKAVDRIRLRDCEWPEPLATSFPGPAYGSAVRDRVFDAGDRP 159
+                                     77778889*********************************************************************** PP
+
+      rubisco_form_III_alignment 154 llgtvpkPkvGysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvr 232
+                                     +++tvpkPkvG+st+++ +v y++++gG+dl+kddenlt+q+fn f +r+++ l ++d++e+etGerk+yl+n+ta+  
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY 160 ITATVPKPKVGLSTDQHVEVGYQAWTGGIDLLKDDENLTDQAFNPFHDRLTESLDARDRAEEETGERKSYLVNVTAPGG 238
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 233 emerrlklvadlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlh 311
+                                     em  r++ va++G++yvmvdvv++Gw+a+q++re+++ ++laihahramha f+r p+hG+sm v+a++arl Gvdq+h
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY 239 EMLDRVDAVAEAGGEYVMVDVVTCGWAAVQQVRERCDRHGLAIHAHRAMHAGFDRLPDHGVSMRVIAQIARLCGVDQIH 317
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 312 iGtagvGklegkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGv 390
+                                     +Gta++Gkl+  +e+++ i+++              l++dl+++ +vlP+asGGlhPgl+pe+++ lG++l +q+GGG+
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY 318 TGTADLGKLA--NEDTAGINEW--------------LRSDLYGLADVLPTASGGLHPGLVPELVDRLGTQLCIQAGGGI 380
+                                     *********9..8999***999..............999**************************************** PP
+
+      rubisco_form_III_alignment 391 lghPdGtraGakavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     +ghPdGt+aGaka+r+av+a+  g++++  a+  ++l++a+ekwg+++p
+  tr|A0A1H3ELJ5|A0A1H3ELJ5_9EURY 381 HGHPDGTHAGAKALRAAVDAAAAGEDIEAAAEREPALATAIEKWGTETP 429
+                                     *********************************************9987 PP
+
+>> tr|A0A1H6ITK8|A0A1H6ITK8_9EURY  Ribulose bisphosphate carboxylase OS=Halopenitus malekzadehii OX=1267564 GN=rbcL PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  536.0   0.0  6.7e-164  1.1e-158       6     439 ..       5     429 ..       1     430 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 536.0 bits;  conditional E-value: 6.7e-164
+      rubisco_form_III_alignment   6 iyadyvdksyePdkddliavfrvePaeGisiedaagrvaaessigtWttlyswldkervkklkakvyelkdlgdgs... 81 
+                                     +y+d++d+syeP +ddl++ f+vePa+ +  e aa+rva+ess+gtW++l+ +     v++l+a +++++  + g    
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY   5 TYEDFLDRSYEPTDDDLVCRFYVEPAADMDAEAAASRVASESSNGTWAALQVE---GSVTDLSAIAFDIEPAAVGGdtp 80 
+                                     79************************************************443...45667777777776544333335 PP
+
+      rubisco_form_III_alignment  82 .......yivkiayplelfeegslpqllasiaGnifgmkavkglrledielPkellkefkGPskGvegvreilgikdrP 153
+                                            y v +ayp+ lfe gs+pq+l++iaGni+gmkav+ +rl+d+ +P+ l  +f+GP++G+ +   i++  drP
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY  81 gtdrregYGVGVAYPMALFEPGSMPQVLSCIAGNILGMKAVDRIRLRDCVWPEPLATSFPGPAFGSAVRDRIFDAGDRP 159
+                                     666778899********************************************************************** PP
+
+      rubisco_form_III_alignment 154 llgtvpkPkvGysteevekvayellsgGvdlvkddenltsqkfnrfeervkkilkvidkveketGerkaylanitadvr 232
+                                     +++tvpkPkvG+st+++ +v y++++gG+dl+kddenlt+q+fn f +r+++ l ++d++e+et erk+yl+n+ta+  
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY 160 ITATVPKPKVGLSTDQHVEVGYQAWTGGIDLLKDDENLTDQAFNPFHDRLTESLDARDRAEEETDERKSYLVNVTAPGG 238
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 233 emerrlklvadlGnkyvmvdvvvaGwsalqyirelaedydlaihahramhaaftrnpkhGismlvlaklarliGvdqlh 311
+                                     em  r++ va++G++yvmvdvv++Gw+++q++re+++ ++laihahramha f+r p+hG+sm v+a++arl Gvdq+h
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY 239 EMLDRVDAVAEAGGEYVMVDVVTCGWASVQQVRERCDRHGLAIHAHRAMHAGFDRLPDHGVSMRVIAQIARLCGVDQIH 317
+                                     ******************************************************************************* PP
+
+      rubisco_form_III_alignment 312 iGtagvGklegkkeevvriadilrekkykadeedkfleqdleeikpvlPvasGGlhPgllpevieilGkdlvlqvGGGv 390
+                                     +Gta++Gkl+  +e++v i+++              l ++l+++++vlP+asGGlhPgl+pe+++ lG++l +q+GGG+
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY 318 TGTADLGKLA--NEDTVGINEW--------------LGSELYGLSDVLPTASGGLHPGLVPELVDRLGTQLCIQAGGGI 380
+                                     *********9..899*****99..............999**************************************** PP
+
+      rubisco_form_III_alignment 391 lghPdGtraGakavrqaveailegisldekakehkelkkalekwgevkp 439
+                                     +ghPdGt+ Gaka+r+av+a+  g+++   a+  ++l++a+ekwg+++p
+  tr|A0A1H6ITK8|A0A1H6ITK8_9EURY 381 HGHPDGTHEGAKALRAAVDAAAAGEDIAAAAEREPALATAIEKWGTETP 429
+                                     *********************************************9987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (440 nodes)
+Target sequences:                      3228402  (1033436047 residues searched)
+Passed MSV filter:                     92772  (0.0287362); expected 64568.0 (0.02)
+Passed bias filter:                    73176  (0.0226663); expected 64568.0 (0.02)
+Passed Vit filter:                      5751  (0.00178138); expected 3228.4 (0.001)
+Passed Fwd filter:                       460  (0.000142485); expected 32.3 (1e-05)
+Initial search space (Z):            3228402  [actual number of targets]
+Domain search space  (domZ):              19  [number of targets reported over threshold]
+# CPU time: 76.09u 11.08s 00:01:27.17 Elapsed: 00:00:16.34
+# Mc/sec: 27828.14
+//
+[ok]

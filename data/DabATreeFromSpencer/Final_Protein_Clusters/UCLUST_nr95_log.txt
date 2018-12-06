@@ -1,0 +1,19 @@
+00:00 1.5Mb     0.1% Reading DUF2309-v-All_Protiens_filt_manprune.faa00:00 3.6Mb   100.0% Reading DUF2309-v-All_Protiens_filt_manprune.faa
+00:00 2.9Mb     0.6% DF                                              00:00 3.0Mb   100.0% DF
+00:00 3.0Mb  878 seqs, 878 uniques, 878 singletons (100.0%)
+00:00 3.0Mb  Min size 1, median 1, max 1, avg 1.00
+00:00 3.0Mb     0.1% DB00:00 3.1Mb   100.0% DB
+00:00 3.1Mb  Sort length... done.
+00:00 42Mb      0.1% Clustering00:00 42Mb      0.1% 0 clusters, max size 0, avg 0.000:01 53Mb     10.5% 91 clusters, max size 1, avg 1.000:02 66Mb     64.1% 554 clusters, max size 3, avg 1.000:03 70Mb     89.6% 778 clusters, max size 3, avg 1.000:03 72Mb    100.0% 868 clusters, max size 3, avg 1.0
+00:03 72Mb      0.1% Writing centroids to DUF2309-v-All_Protiens_filt_manprune_nr95.faa00:03 72Mb    100.0% Writing centroids to DUF2309-v-All_Protiens_filt_manprune_nr95.faa
+                                                                                       
+      Seqs  878
+  Clusters  868
+  Max size  3
+  Avg size  1.0
+  Min size  1
+Singletons  859, 97.8% of seqs, 99.0% of clusters
+   Max mem  72Mb
+      Time  3.00s
+Throughput  292.7 seqs/sec.
+
