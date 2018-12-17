@@ -1,0 +1,25 @@
+from Bio import AlignIO
+from Bio import Seq
+
+def getSeq(ID, align):
+    for seq in align:
+        if ID in seq.id:
+            return(seq)
+    return('failure')
+
+def seqPosFromAliPos(ID, align,offset):
+    seq = getSeq(ID, align)
+    if seq == 'failure':
+        return(seq)
+    mapping = [0]*len(seq)
+    j = offset
+    for i, res in enumerate(seq.seq):
+        if res!='-':
+            mapping[i]=j
+            j+=1
+        else:
+            mapping[i]=-1
+    return(mapping)
+
+def aliPosFromSeqPos(pos,mapping):
+    return(mapping.index(pos))
