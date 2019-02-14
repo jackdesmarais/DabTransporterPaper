@@ -1,0 +1,11 @@
+value_type,name,name,name,name,name,name,name,name,name,name,name,name
+column,1,2,3,4,5,6,7,8,9,10,11,12
+,,,,,,,,,,,,
+A,BW_sfGFP,CAF_sfGFP,CAF_HCA,CAF_DAB2,CAF_Cholera1,CAF_Nitro1,CAF_Thermo1,CAF_asia1,CAF_asia2,CAF_Anthrax3gene1,CAF_Anthrax2Gene1,CAF_AnthraxCA
+B,BW_sfGFP,CAF_sfGFP,CAF_HCA,CAF_DAB2,CAF_Cholera1,CAF_Nitro1,CAF_Thermo1,CAF_asia1,CAF_asia2,CAF_Anthrax3gene1,CAF_Anthrax2Gene1,CAF_AnthraxCA
+C,BW_sfGFP,CAF_sfGFP,CAF_HCA,CAF_DAB2,CAF_Cholera1,CAF_Nitro1,CAF_Thermo1,CAF_asia1,CAF_asia2,CAF_Anthrax3gene1,CAF_Anthrax2Gene1,CAF_AnthraxCA
+D,BW_sfGFP,CAF_sfGFP,CAF_HCA,CAF_DAB2,CAF_Cholera1,CAF_Nitro1,CAF_Thermo1,CAF_asia1,CAF_asia2,CAF_Anthrax3gene1,CAF_Anthrax2Gene1,CAF_AnthraxCA
+E,BW_sfGFP+ATC,CAF_sfGFP+ATC,CAF_HCA+ATC,CAF_DAB2+ATC,CAF_Cholera1+ATC,CAF_Nitro1+ATC,CAF_Thermo1+ATC,CAF_asia1+ATC,CAF_asia2+ATC,CAF_Anthrax3gene1+ATC,CAF_Anthrax2Gene1+ATC,CAF_AnthraxCA+ATC
+F,BW_sfGFP+ATC,CAF_sfGFP+ATC,CAF_HCA+ATC,CAF_DAB2+ATC,CAF_Cholera1+ATC,CAF_Nitro1+ATC,CAF_Thermo1+ATC,CAF_asia1+ATC,CAF_asia2+ATC,CAF_Anthrax3gene1+ATC,CAF_Anthrax2Gene1+ATC,CAF_AnthraxCA+ATC
+G,BW_sfGFP+ATC,CAF_sfGFP+ATC,CAF_HCA+ATC,CAF_DAB2+ATC,CAF_Cholera1+ATC,CAF_Nitro1+ATC,CAF_Thermo1+ATC,CAF_asia1+ATC,CAF_asia2+ATC,CAF_Anthrax3gene1+ATC,CAF_Anthrax2Gene1+ATC,CAF_AnthraxCA+ATC
+H,BW_sfGFP+ATC,CAF_sfGFP+ATC,CAF_HCA+ATC,CAF_DAB2+ATC,CAF_Cholera1+ATC,CAF_Nitro1+ATC,CAF_Thermo1+ATC,CAF_asia1+ATC,CAF_asia2+ATC,CAF_Anthrax3gene1+ATC,CAF_Anthrax2Gene1+ATC,CAF_AnthraxCA+ATC
