@@ -61,6 +61,13 @@ total_pool_df['n_total'] = total_pool_df.n + total_pool_df.n2
 # loading more data from for plotting
 pathToData = "../data/2017_11_03_miseq_barSeq1/"
 logratios_df = pd.read_csv(path.join(pathToData, 'fit_logratios.tab'), sep='\t')
+error_df = pd.read_csv(path.join(pathToData, 'fit_standard_error_naive.tab'), sep='\t')
+
+# fixing the error df
+error_df["HighCO2Err"] = error_df["setAS2 HCO"]
+error_df["LowCO2Err"] = error_df["setAS3 LCO"]
+error_df.drop("setAS2 HCO",axis=1,inplace=True)
+error_df.drop("setAS3 LCO",axis=1,inplace=True)
 
 # smaller_df
 small_log_df = pd.DataFrame()
@@ -72,6 +79,13 @@ small_log_df["LowCO2Log"] = logratios_df["setAS3 LCO"]
 
 pathToData = "../data/2017_11_03_miseq_barSeq2/"
 logratios_df = pd.read_csv(path.join(pathToData, 'fit_logratios.tab'), sep='\t')
+error_df2 = pd.read_csv(path.join(pathToData, 'fit_standard_error_naive.tab'), sep='\t')
+
+# fixing the error df
+error_df2["HighCO2Err"] = error_df2["setAS2 HCO"]
+error_df2["LowCO2Err"] = error_df2["setAS3 LCO"]
+error_df2.drop("setAS2 HCO",axis=1,inplace=True)
+error_df2.drop("setAS3 LCO",axis=1,inplace=True)
 
 # smaller_df
 small_log_df2 = pd.DataFrame()
@@ -81,9 +95,13 @@ small_log_df2["desc"] = logratios_df["desc"]
 small_log_df2["HighCO2Log"] = logratios_df["setAS2 HCO"]
 small_log_df2["LowCO2Log"] = logratios_df["setAS3 LCO"]
 
+# merging
 merge_on = ['locusId','sysName','desc']
 
+error_df = error_df.merge(error_df2, on = merge_on, how = 'outer', suffixes=('_1','_2'))
 small_log_df = small_log_df.merge(small_log_df2, on = merge_on, how = 'outer', suffixes=('_1','_2'))
+small_log_df = small_log_df.merge(error_df, on = merge_on, how = 'outer')
+
 
 # Absolute difference of 1.0 in the log fitness indicates twofold difference in linear scale 
 # since we are using log base2 here. 
