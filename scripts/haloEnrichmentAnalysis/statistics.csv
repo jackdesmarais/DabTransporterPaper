@@ -1,0 +1,26 @@
+,Number in genome,Number essential,p value
+No COG,734,46,4.222162300659962e-43
+[A] RNA processing and modification,1,0,19.279485049824547
+[B] Chromatin structure and dynamics,1,0,19.279485049824547
+[C] Energy production and conversion,118,50,9.638106762688281e-06
+"[D] Cell cycle control, cell division, chromosome partitioning",28,14,0.009450508218328268
+[E] Amino acid transport and metabolism,128,67,8.64114335641375e-11
+[F] Nucleotide transport and metabolism,54,29,3.741182205696525e-06
+[G] Carbohydrate transport and metabolism,62,18,2.397094148782522
+[H] Coenzyme transport and metabolism,95,55,0.0
+[I] Lipid transport and metabolism,56,26,0.0005641793695887465
+"[J] Translation, ribosomal structure and biogenesis",186,91,0.0
+[K] Transcription,71,14,7.8754113718299354
+"[L] Replication, recombination and repair",84,19,13.45555921109353
+[M] Cell wall/membrane/envelope biogenesis,143,50,0.005978393935590631
+[N] Cell motility,57,0,7.5652728068176985e-06
+"[O] Posttranslational modification, protein turnover, chaperones",86,18,9.670104598009342
+[P] Inorganic ion transport and metabolism,98,17,2.7790767598757418
+"[Q] Secondary metabolites biosynthesis, transport and catabolism",28,4,4.926743612793116
+[R] General function prediction only,101,6,7.593850514879542e-05
+[S] Function unknown,96,2,9.787207118242153e-08
+[T] Signal transduction mechanisms,77,7,0.031480122645977236
+"[U] Intracellular trafficking, secretion, and vesicular transport",44,14,1.465454190096116
+[V] Defense mechanisms,39,1,0.01160186120537318
+[W] Extracellular structures,10,0,1.8496041509702819
+"[X] Mobilome: prophages, transposons",11,3,5.747037793247797
